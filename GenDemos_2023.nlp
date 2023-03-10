@@ -1,0 +1,15 @@
+# Project description file
+
+project.name=GenDemos_2023
+project.version=8.7
+project.original.version=8.7
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+product.original.version=9.2.0
+project.is-open-test-settings-after-upload=false
+project.id=5b125078-8247-4d71-b3ae-b80460d2ebc7
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/jlupisella/GenDemos_2023
