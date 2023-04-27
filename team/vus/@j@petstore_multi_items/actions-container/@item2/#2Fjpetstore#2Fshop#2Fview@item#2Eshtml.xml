@@ -2,7 +2,7 @@
     name="/jpetstore/shop/viewItem.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/5df486ae-fd4e-4d47-9a50-81cac217691d.zip"
-    slaProfileEnabled="false" thinkTime="7220"
+    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="7220"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="5df486ae-fd4e-4d47-9a50-81cac217691d">
     <embedded-action>8e4b5b5b-4811-4376-86aa-01cfb639c0af</embedded-action>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="88a55a42-a333-4be9-b72e-2f7d2984e28c"
     responseSize="3868" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="8e4b5b5b-4811-4376-86aa-01cfb639c0af" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="8e4b5b5b-4811-4376-86aa-01cfb639c0af" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c5ef379d-a606-4c56-8f2a-eba2b55aeb36.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c5ef379d-a606-4c56-8f2a-eba2b55aeb36.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="itemId"
@@ -55,7 +56,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/dog5.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/5df486ae-fd4e-4d47-9a50-81cac217691d.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetStore"
     uid="da513bbb-3816-47c3-88da-6bdf07151800" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_2e69a73f-49c2-4a87-9c79-2b6f66612a41.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_2e69a73f-49c2-4a87-9c79-2b6f66612a41.txt</requestContentFileDescription>

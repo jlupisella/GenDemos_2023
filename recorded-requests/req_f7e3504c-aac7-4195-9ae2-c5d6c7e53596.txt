@@ -1,0 +1,17 @@
+GET https://support-hub.tricentis.com:443/open?id=tricentis_neoload&utm_source=referral&utm_medium=redirect&utm_campaign=neotys HTTP/1.1
+Host: support-hub.tricentis.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _gid=GA1.2.1218676266.1680878925; _mkto_trk=id:470-GZN-442&token:_mch-tricentis.com-1680879017886-77180; _ga=GA1.2.1894101765.1680878925; _ga_8YKD435ZJX=GS1.1.1680887394.2.0.1680887394.0.0.0; glide_user_route=glide.5c33e42870c7a6630cb883502a644306
+

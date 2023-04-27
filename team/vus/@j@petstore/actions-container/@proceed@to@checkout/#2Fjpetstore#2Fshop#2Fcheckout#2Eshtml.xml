@@ -2,9 +2,9 @@
     name="/jpetstore/shop/checkout.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/ce55baf0-22d4-4258-b540-2f5945ad647c.zip"
-    slaProfileEnabled="false" thinkTime="10675"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="ce55baf0-22d4-4258-b540-2f5945ad647c">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    thinkTime="10675" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="ce55baf0-22d4-4258-b540-2f5945ad647c">
     <embedded-action>2c754ec3-db97-4356-9480-9f4840ee2aa5</embedded-action>
     <embedded-action>50d9355a-e0a0-48a2-bae1-549586bde314</embedded-action>
 </http-page>
@@ -18,7 +18,8 @@
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/ce55baf0-22d4-4258-b540-2f5945ad647c.zip"
     recordedResponseCode="200" recordedResponseTime="21"
     responseSize="4965" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="2c754ec3-db97-4356-9480-9f4840ee2aa5" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="2c754ec3-db97-4356-9480-9f4840ee2aa5" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_55a2303c-17c4-4d5a-a2bb-fa6ad064ef79.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_75f7b2b4-ebe9-46b7-91b7-1150e93f22be.0.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
@@ -53,7 +54,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/ce55baf0-22d4-4258-b540-2f5945ad647c.zip"
     recordedResponseCode="200" recordedResponseTime="17"
     responseSize="1275" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="50d9355a-e0a0-48a2-bae1-549586bde314" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="50d9355a-e0a0-48a2-bae1-549586bde314" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_4f0665b1-4ccb-4ae1-8ff9-fec0b3ca23fc.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_ca7ec328-d189-4962-b995-4e6cbbd02d7e.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>

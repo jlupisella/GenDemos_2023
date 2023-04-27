@@ -1,0 +1,9 @@
+self.addEventListener('activate', async () => {
+});
+
+self.addEventListener('install', function (event) {
+});
+
+self.addEventListener('fetch', function (event) {
+   
+});

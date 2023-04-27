@@ -2,7 +2,7 @@
     name="/jpetstore/shop/viewItem.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/9a7063ff-89f5-4c40-a47b-2ee6097d44a7.zip"
-    slaProfileEnabled="false" thinkTime="6892"
+    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="6892"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="9a7063ff-89f5-4c40-a47b-2ee6097d44a7">
     <embedded-action>fb40e6cd-6482-44d6-81d9-a963d7c6de7d</embedded-action>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="58286c87-1358-4312-aa49-3c4af4d8925b"
     responseSize="3653" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="fb40e6cd-6482-44d6-81d9-a963d7c6de7d" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="fb40e6cd-6482-44d6-81d9-a963d7c6de7d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_7d0566ab-3e84-45b7-b6c7-03222f4f90dd.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7d0566ab-3e84-45b7-b6c7-03222f4f90dd.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="itemId"
@@ -55,7 +56,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/fish2.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/9a7063ff-89f5-4c40-a47b-2ee6097d44a7.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetStore"
     uid="2899b067-f628-48cd-80b4-01cc3a0fc75e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_2ba95ae9-0d8a-4cda-b1c7-35de50319215.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_2ba95ae9-0d8a-4cda-b1c7-35de50319215.txt</requestContentFileDescription>

@@ -1,0 +1,512 @@
+[accessibility] a:focus, [accessibility] button:focus, [accessibility] [role="slider"]:focus, [accessibility] [role="button"]:focus, [accessibility] .btn:focus {
+	box-shadow: 0 0 0 1.5px #1f8476;
+	outline: 4px solid transparent;
+}
+[accessibility] input:focus, [accessibility] textarea:focus, [accessibility] select:focus {
+	box-shadow: 0 0 5px #1f8476;
+	outline: 4px solid transparent;
+	border-color: #1f8476;
+}
+[accessibility] .select2-container-active, [accessibility] .selectize-input.focus, [accessibility] .btn.btn-default:focus {
+	box-shadow: 0 0 5px #1f8476;
+	outline: 4px solid transparent;
+	border-color: #1f8476;
+}
+[accessibility] input[type="radio"]:focus, [accessibility] input[type="checkbox"]:focus {
+	outline: 4px solid #1f8476;
+	outline: 5px auto #1f8476;
+	outline-offset: -2px;
+}
+[accessibility] [tabindex]:focus {
+	outline: none;
+	border: 1px solid #1f8476;
+	box-shadow: 0px 0px 5px #1f8476;
+}
+@media not all and (min-resolution:0.001dpcm) {
+	[accessibility] select:focus {
+		outline: 2px solid #1f8476;
+	}
+}
+[accessibility] .select2-container-active a.select2-choice, [accessibility] .select2-container-active.select2-container-multi .select2-choices {
+	border-left: 1px solid #939393;
+}
+[accessibility] .navbar-brand:focus, [accessibility] .navbar-nav > li > a:focus, [accessibility] .skip-link:focus, [accessibility] .btn.btn-primary:focus, [accessibility] .btn.btn-danger:focus, [accessibility] .navbar-inverse .navbar-toggle:focus {
+	box-shadow: inset 0 0 0 1px #fff;
+	border-radius: 2px;
+}
+[accessibility] .bootstrap-datetimepicker-widget .day [role="button"]:focus, [accessibility] .bootstrap-datetimepicker-widget span.active:focus {
+	box-shadow: inset 0 0 0 1px #fff;
+	border-radius: 2px;
+}
+[accessibility] .bootstrap-datetimepicker-widget span.active:focus {
+	border: 1px solid #1f8476;
+}
+[accessibility] .bootstrap-datetimepicker-widget thead tr:first-child th:focus {
+	border-collapse: separate;
+}
+[accessibility] a.btn-default:focus, [accessibility] a.btn-default:hover, [accessibility] a.btn-primary:focus, [accessibility] a.btn-primary:hover, [accessibility] a.btn-danger:focus, [accessibility] a.btn-danger:hover {
+	text-decoration: none !important;
+}
+[accessibility] .btn.disabled, [accessibility] .btn[disabled], fieldset[disabled] [accessibility] .btn {
+	color: #2e2e2e;
+	background-color: #fff;
+	border-color: #939393;
+}
+[accessibility] ::-webkit-input-placeholder {
+	color: #4a4a4a;
+}
+[accessibility] ::-moz-placeholder {
+	color: #4a4a4a;
+}
+[accessibility] :-ms-input-placeholder {
+	color: #4a4a4a;
+}
+[accessibility] :-moz-placeholder {
+	color: #4a4a4a;
+}
+[accessibility] a:hover, [accessibility] [role="button"]:hover, [accessibility] [tabindex="0"]:hover, [accessibility] input:hover {
+	outline: 0 !important;
+}
+[accessibility] .select2-default {
+	color: #4c4c4c !important;
+}
+@media screen and (-ms-high-contrast: active) {
+	a:focus, input:focus, button:focus, textarea:focus, select:focus, [role="slider"]:focus, [role="button"]:focus, [tabindex="0"]:focus {
+		outline: 4px solid highlight !important;
+		box-shadow: 0px 0px 0px highlight;
+		outline-offset: 0px !important;
+	}
+	a .glyphicon, input .glyphicon, button .glyphicon, textarea .glyphicon, select .glyphicon, [role="slider"] .glyphicon, [role="button"] .glyphicon, [tabindex="0"] .glyphicon {
+		-ms-high-contrast-adjust: none;
+		color: windowText;
+		background-color: transparent;
+	}
+	div[ng-show="attachments.length > 0"] button:focus {
+		outline-offset: -3px !important;
+	}
+	.type-boolean label, div[ng-if="data.hasReadableJournalField"] label {
+		position: relative;
+	}
+	.bootstrap-datetimepicker-widget .datepicker-years .active, .bootstrap-datetimepicker-widget .datepicker-months .active {
+		outline: 4px solid highlight !important;
+		box-shadow: 0px 0px 0px highlight;
+		outline-offset: 0px !important;
+	}
+	.bootstrap-datetimepicker-widget .timepicker .glyphicon:hover {
+		background-color: transparent;
+	}
+	select {
+		border: thin solid windowText;
+	}
+	select option:hover {
+		color: highlightText;
+		background: highlight;
+	}
+	.has-error .form-control {
+		-ms-high-contrast-adjust: none;
+		border-color: highlight !important;
+		background-color: transparent !important;
+	}
+	.select2-results .select2-highlighted {
+		-ms-high-contrast-adjust: none;
+		background: highlight !important;
+		color: highlightText !important;
+	}
+	.selectize-dropdown .selectize-dropdown-content .active {
+		-ms-high-contrast-adjust: none;
+		background: highlight !important;
+		color: highlightText !important;
+	}
+	.selectize-control.single .selectize-input:after {
+		-ms-high-contrast-adjust: none;
+		border-color: windowText transparent transparent transparent !important;
+	}
+	.selectize-dropdown, .selectize-input, .selectize-input input {
+		color: windowText;
+	}
+	.selectize-control.single .selectize-input.dropdown-active:after {
+		-ms-high-contrast-adjust: none;
+		border-color: transparent transparent windowText transparent !important;
+	}
+	.select2-choice {
+		border: windowText;
+	}
+	.select2-container .select2-choice {
+		-ms-high-contrast-adjust: none;
+		color: windowText !important;
+		background: window !important;
+	}
+	.select2-container .select2-choice .select2-arrow {
+		border-left-color: windowText;
+	}
+	.select2-container .select2-choice .select2-arrow b {
+		background: url("/images/whc/select2_white.png") no-repeat 6px 4px !important;
+	}
+	.select2-dropdown-open .select2-choice .select2-arrow b {
+		background-position: -11px 4px !important;
+	}
+	.select2-search input {
+		background: window url("/images/whc/select2_white.png") no-repeat 100% -22px !important;
+	}
+	.select2-container .select2-choice abbr.select2-search-choice-close, .select2-search-choice-close {
+		background: url("/images/whc/select2_white.png") right top no-repeat !important;
+	}
+	.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+		border-color: transparent;
+	}
+	.CodeMirror-lint-marker-error:before, .CodeMirror-lint-mark-error {
+		-ms-high-contrast-adjust: none;
+		color: windowText !important;
+	}
+	.select2-container-disabled a {
+		border: thick grayText;
+	}
+	.select2-container-disabled span {
+		color: grayText;
+	}
+	input.disabled, input[readonly="readonly"] {
+		color: grayText !important;
+		border-color: grayText !important;
+	}
+	.selectize-control.multi .selectize-input > .item {
+		border: 1px solid windowText;
+	}
+	.tooltip.top .tooltip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-top-color: windowText !important;
+	}
+	.tooltip.top .tooltip-inner {
+		border: 1px solid windowText;
+		position: relative;
+		top: 1px;
+	}
+	.tooltip.bottom .tooltip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-bottom-color: windowText !important;
+	}
+	.tooltip.bottom .tooltip-inner {
+		border: 1px solid windowText;
+		position: relative;
+		bottom: 1px;
+	}
+	.tooltip.left .tooltip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-left-color: windowText !important;
+	}
+	.tooltip.left .tooltip-inner {
+		border: 1px solid windowText;
+		position: relative;
+		left: 1px;
+	}
+	.tooltip.right .tooltip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-right-color: windowText !important;
+	}
+	.tooltip.right .tooltip-inner {
+		border: 1px solid windowText;
+		position: relative;
+		right: 1px;
+	}
+	.glyph-picker-container .iconpicker span.caret {
+		-ms-high-contrast-adjust: none;
+		border-top-color: windowText;
+	}
+	.popover.right > .arrow {
+		-ms-high-contrast-adjust: none;
+		border-right-color: windowText;
+	}
+	.popover.right > .arrow:after {
+		border-right-color: window;
+	}
+	.popover-content .table-icons .btn:hover {
+		-ms-high-contrast-adjust: none;
+		background-color: highlight;
+		color: highlightText;
+	}
+	.label-as-badge, .badge {
+		border: 1px solid windowText;
+	}
+	.dropdown-menu li a:hover {
+		-ms-high-contrast-adjust: none;
+		background-color: highlight;
+		color: highlightText;
+	}
+	.dropdown-menu li a:hover span.text-muted {
+		color: highlightText;
+	}
+	.dropdown-menu li a:hover .badge {
+		color: highlightText;
+		border-color: highlightText;
+		background-color: highlight;
+	}
+	.dropdown-menu li.disabled a {
+		color: gray;
+	}
+	.dropdown-menu li.disabled a:hover {
+		color: grayText;
+	}
+	.dropdown-menu li.divider {
+		background-color: windowText;
+	}
+	.input-group .dropdown-menu > .active > a, .input-group .dropdown-menu > .active > a:hover, .input-group .dropdown-menu > .active > a:focus {
+		-ms-high-contrast-adjust: none;
+		background-color: highlight;
+		color: highlightText;
+	}
+	.dropdown-menu i.ta-img {
+		-ms-high-contrast-adjust: none;
+		background: none;
+	}
+	.avatar {
+		-ms-high-contrast-adjust: none;
+	}
+	.navbar-avatar .avatar-container .avatar {
+		background-color: window;
+	}
+	.navbar-avatar .avatar-container .avatar .sub-avatar {
+		background-color: window;
+	}
+	.panel-body .avatar-container .avatar .sub-avatar {
+		pointer-events: none;
+	}
+	.iconlink a {
+		color: windowText;
+	}
+	.iconlink a i.fa {
+		-ms-high-contrast-adjust: none;
+		color: windowText;
+	}
+	.iconlink a i.fa-inverse {
+		color: window;
+	}
+	.iconlink a:hover {
+		color: highlight;
+	}
+	.iconlink a:hover i.fa {
+		color: highlight !important;
+	}
+	.iconlink a:hover i.fa-inverse {
+		color: highlightText !important;
+	}
+	textarea {
+		overflow-y: hidden !important;
+	}
+	div.timeline-panel-inner[style="border-color: transparent;"] {
+		border-color: transparent !important;
+	}
+	.timeline > li > .timeline-panel:after {
+		-ms-high-contrast-adjust: none;
+		border-color: transparent windowText transparent windowText !important;
+	}
+	.timeline > li > .timeline-panel:before {
+		-ms-high-contrast-adjust: none;
+		border-right-color: windowText;
+		border-left-color: windowText;
+	}
+	.timeline-badge.success {
+		border: 2px solid windowText;
+		width: 60px !important;
+	}
+	.timeline-badge.success span {
+		color: windowText;
+	}
+	div[ng-show="data.hasWritableJournalField"] textarea {
+		border-color: windowText;
+	}
+	div[ng-show="data.hasWritableJournalField"] textarea:-ms-input-placeholder {
+		color: windowText;
+	}
+	div[ng-show="data.hasWritableJournalField"] textarea::-ms-input-placeholder {
+		color: windowText;
+	}
+	div[ng-show="data.hasWritableJournalField"] textarea[placeholder="Work notes"] + span[style="background-color: gold;"] {
+		background-color: windowText;
+	}
+	.input-switch input[type="checkbox"]:focus + label.switch[for="accessibility-enabled"] {
+		outline: 4px solid highlight !important;
+		box-shadow: 0px 0px 0px highlight;
+		outline-offset: 0px !important;
+		outline-offset: -2px !important;
+	}
+	div.day {
+		border: thin solid windowText;
+	}
+	div.day span i.fa {
+		-ms-high-contrast-adjust: none;
+		color: windowText !important;
+	}
+	tooltip._top tip tip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-top-color: windowText;
+	}
+	tooltip._bottom tip tip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-bottom-color: windowText;
+	}
+	tooltip._left tip tip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-left-color: windowText;
+	}
+	tooltip._right tip tip-arrow {
+		-ms-high-contrast-adjust: none;
+		border-right-color: windowText;
+	}
+	tooltip tip {
+		border: thin solid windowText;
+	}
+	.highlight.mark {
+		background: highlight;
+		color: highlightText;
+	}
+	.inner-facet-list .toggle-icon.btn {
+		border: none;
+	}
+	.sp-facet-lists .heading.panel-heading {
+		border: none;
+	}
+	.sp-facet-lists .sp-list-menu div.panel-heading {
+		border-bottom: none;
+	}
+	.panel, .sp-facet-lists, .panel-heading {
+		border-width: 2px !important;
+	}
+	.color_box {
+		color: windowText;
+	}
+	.color_box i.fa {
+		-ms-high-contrast-adjust: none;
+		color: windowText;
+	}
+	.color_box i.fa-inverse {
+		color: window;
+	}
+	.intro + .flex div:hover .color_box {
+		color: highlight;
+	}
+	.intro + .flex div:hover .color_box i.fa {
+		color: highlight !important;
+	}
+	.intro + .flex div:hover .color_box i.fa-inverse {
+		color: highlightText !important;
+	}
+	.sp-announcement-root .sp-announcement {
+		border-bottom: thin solid windowText;
+	}
+	.sp-announcement-root .sp-announcement span.glyphicon.close {
+		opacity: 1;
+	}
+	.sp-announcement-root .sp-announcement span.glyphicon.close:hover {
+		opacity: .5;
+	}
+	.modal-content button.close {
+		color: windowText;
+		opacity: 1;
+	}
+	input {
+		border: thin solid windowText;
+	}
+	input:-ms-input-placeholder {
+		color: windowText;
+	}
+	input::-ms-input-placeholder {
+		color: windowText;
+	}
+	.arrow {
+		-ms-high-contrast-adjust: none;
+	}
+	.arrow:after {
+		border-bottom-color: windowText;
+	}
+	.nav.nav-tabs li.item[role="tab"] a {
+		border: none;
+	}
+	.nav.nav-tabs li.item[role="tab"] a.sc-tab-a {
+		border-bottom: medium solid highlight;
+	}
+	.input-switch input[type=checkbox] ~ .switch {
+		background-color: window;
+		color: windowText;
+		border: thin solid windowText;
+	}
+	.input-switch input[type=checkbox] ~ .switch:before {
+		background-color: windowText;
+	}
+	.input-switch input[type=checkbox]:focus ~ .switch {
+		outline: 4px solid highlight !important;
+		box-shadow: 0px 0px 0px highlight;
+		outline-offset: 0px !important;
+		outline-offset: 4px !important;
+	}
+	.og-switch .input-switch input[type=checkbox]:checked ~ .switch {
+		background-color: highlight;
+		color: highlightText;
+		border-color: highlight;
+	}
+	.og-switch .input-switch input[type=checkbox]:checked ~ .switch:before {
+		background-color: highlightText;
+	}
+	.navbar-avatar .avatar-container {
+		height: 35px;
+		width: 35px;
+	}
+	.navbar-avatar .avatar-container .sub-avatar:not([style*="background-image"]) {
+		border: thin solid windowText;
+		border-radius: 50%;
+	}
+	.disabled {
+		color: grayText !important;
+	}
+	.btn {
+		color: windowText;
+	}
+	.guide-nav {
+		padding-top: 4px !important;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: highlight;
+	}
+}
+@media screen and (-ms-high-contrast: black-on-white) {
+	.select2-search input {
+		background: window url("/images/whc/select2_black.png") no-repeat 100% -22px !important;
+	}
+	.select2-container .select2-choice .select2-arrow b {
+		background: url("/images/whc/select2_black.png") no-repeat 6px 4px !important;
+	}
+	.select2-container .select2-choice abbr.select2-search-choice-close, .select2-search-choice-close {
+		background: url("/images/whc/select2_black.png") right top no-repeat !important;
+	}
+	.select2-dropdown-open .select2-choice .select2-arrow b {
+		background-position: -11px 4px !important;
+	}
+	.has-error .form-control {
+		border-color: grayText !important;
+	}
+}
+.tooltip-inner {
+	word-wrap: break-word;
+}
+@media (max-height: 320px) {
+	.select2-results {
+		max-height: 60vh;
+	}
+}
+@media screen and (-ms-high-contrast: active) {
+	.tox svg {
+		fill: windowText !important;
+	}
+	.tox-collection--list .tox-collection__item--active, .tox-collection--list .tox-collection__item--enabled {
+		background-color: highlight !important;
+	}
+	.tox-collection--list .tox-collection__item--active .tox-collection__item-label, .tox-collection--list .tox-collection__item--enabled .tox-collection__item-label {
+		-ms-high-contrast-adjust: none;
+		color: highlightText !important;
+	}
+	.tox-collection--list .tox-collection__item--active .tox-collection__item-label *, .tox-collection--list .tox-collection__item--enabled .tox-collection__item-label * {
+		color: highlightText !important;
+		background-color: highlight !important;
+	}
+	.tox-collection--list .tox-collection__item--active svg, .tox-collection--list .tox-collection__item--enabled svg {
+		fill: highlightText !important;
+	}
+}

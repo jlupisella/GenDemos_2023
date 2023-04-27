@@ -64,7 +64,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/sign-out.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/a04ffd10-7edc-4e97-9ade-f73a10dc6985.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     uid="7c3e03bf-f935-43bc-bc0e-3d8881406569" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_63042629-28d4-4aae-94bf-6efb4bf6244c.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b5684a1b-4dd7-4105-a649-aa4e4532175e.txt</requestContentFileDescription>

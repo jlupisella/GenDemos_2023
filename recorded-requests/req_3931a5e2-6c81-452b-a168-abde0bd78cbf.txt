@@ -1,0 +1,15 @@
+GET https://support-hub.tricentis.com:443/service_worker.jsdbx HTTP/1.1
+Host: support-hub.tricentis.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: */*
+Service-Worker: script
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Dest: serviceworker
+Referer: https://support-hub.tricentis.com/service_worker.jsdbx
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _gid=GA1.2.1218676266.1680878925; _mkto_trk=id:470-GZN-442&token:_mch-tricentis.com-1680879017886-77180; _ga=GA1.2.1894101765.1680878925; _ga_8YKD435ZJX=GS1.1.1680887394.2.0.1680887394.0.0.0; JSESSIONID=33D0F0828CA212BB9D22DF727AE56FD0; glide_user_route=glide.5586a0922a4dfb125317cccea43db69c; BIGipServerpool_tricentiscsm=2626333194.36414.0000
+

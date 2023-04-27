@@ -1,0 +1,13 @@
+POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle HTTP/2.0
+content-length: 43
+x-goog-api-key: AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+content-type: application/x-protobuf
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+
+
+=÷	€!kgûÕ{–ˆ¤ÁX_ŠzØO.v{>‰’öCž9	

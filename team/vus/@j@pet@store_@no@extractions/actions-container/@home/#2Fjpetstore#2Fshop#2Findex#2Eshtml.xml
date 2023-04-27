@@ -26,7 +26,7 @@
     path="/jpetstore/shop/index.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/a6ce3ceb-e4eb-40a8-ac14-6d3167237e87.zip"
     recordedResponseCode="200" responseSize="6350"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     uid="91b563fc-07f8-48d0-9a16-b867dbfa1d05" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_245dd6db-0754-4aa8-88da-e604434ecad0.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_245dd6db-0754-4aa8-88da-e604434ecad0.txt</requestContentFileDescription>

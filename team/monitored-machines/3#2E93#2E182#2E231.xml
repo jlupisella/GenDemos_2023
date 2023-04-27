@@ -1,0 +1,5 @@
+<monitored-host host-name="3.93.182.231" mehost-name="localhost"
+    proxy-id="" uid="3.93.182.231">
+    <embedded-action>0f0e7a30-254b-4004-9b8f-5d0423d06d20</embedded-action>
+    <embedded-action>77b732ac-ddf8-419d-bb9c-ca08ac15ef08</embedded-action>
+</monitored-host>

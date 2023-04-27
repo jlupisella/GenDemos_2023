@@ -9,7 +9,7 @@
     <actions-container clearUserIterationDataMode="AUTO"
         element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-        slaProfileEnabled="false" weightsEnabled="false">
+        slaProfileEnabled="true" slaProfileName="JPetStore" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
         <weighted-embedded-action uid="f6494631-2ca1-449b-9f07-e0fe256f2746"/>
         <weighted-embedded-action uid="83f27c51-a08c-4f0a-b21c-a8c8a8883602"/>

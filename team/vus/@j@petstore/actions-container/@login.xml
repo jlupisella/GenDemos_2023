@@ -1,6 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="JPetStore"
     uid="c3f17c32-0c74-4c0d-a021-c931c9e032ce" weightsEnabled="false">
     <weighted-embedded-action uid="1ce9767d-5a9e-4b0d-b860-984ca5897143"/>
     <weighted-embedded-action uid="afce683f-cc04-41d3-aff7-f542a361db34"/>

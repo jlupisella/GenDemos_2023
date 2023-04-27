@@ -1,0 +1,16 @@
+GET https://support-hub.tricentis.com:443/scripts/js_includes_sp.jsx?v=02-07-2023_1702&lp=Thu_Mar_09_10_27_38_PST_2023&c=16_483 HTTP/1.1
+Host: support-hub.tricentis.com
+Connection: keep-alive
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://support-hub.tricentis.com/open?id=tricentis_neoload&utm_source=referral&utm_medium=redirect&utm_campaign=neotys
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _gid=GA1.2.1218676266.1680878925; _mkto_trk=id:470-GZN-442&token:_mch-tricentis.com-1680879017886-77180; _ga=GA1.2.1894101765.1680878925; _ga_8YKD435ZJX=GS1.1.1680887394.2.0.1680887394.0.0.0; JSESSIONID=33D0F0828CA212BB9D22DF727AE56FD0; glide_user_route=glide.5586a0922a4dfb125317cccea43db69c; BIGipServerpool_tricentiscsm=2626333194.36414.0000
+

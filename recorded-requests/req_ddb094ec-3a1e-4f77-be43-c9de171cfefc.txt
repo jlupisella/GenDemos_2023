@@ -1,0 +1,10 @@
+GET https://ushahidi.apps.neotys.com:443/themes/default/images/filters-bg.jpg HTTP/1.1
+Host: ushahidi.apps.neotys.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://ushahidi.apps.neotys.com/themes/default/css/style.css?m=1542866374&
+Cookie: ushahidi=0jq4ofaqj9u3mphvsoo5troml6
+

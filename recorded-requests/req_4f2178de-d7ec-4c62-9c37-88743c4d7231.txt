@@ -1,0 +1,13 @@
+POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/2.0
+content-length: 1
+origin: https://www.google.com
+content-type: application/x-www-form-urlencoded
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cookie: NID=511=dOnXmEZM96VzEHVWynS03eL22d2hoX_ZjAHRY-JQ_ORMJoeR3P3h_JLW9xAMywoDfu-yjrux7DYkc33KnpEVe7YwIOp7ewixiGZ0VjpAuTnBre3TsVPxDwK9PcCbxXHTyRI6TU-zYXFIFRQ670PQx70GeTCcVaz3bRnMepljfoI; 1P_JAR=2023-04-07-17
+
+ 

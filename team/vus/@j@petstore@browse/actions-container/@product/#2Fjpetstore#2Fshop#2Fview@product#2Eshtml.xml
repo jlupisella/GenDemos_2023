@@ -2,7 +2,7 @@
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/fdbf06f2-0489-4665-a341-ba5fc4865d5a.zip"
-    slaProfileEnabled="false" thinkTime="8200"
+    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="8200"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="fdbf06f2-0489-4665-a341-ba5fc4865d5a">
     <embedded-action>58286c87-1358-4312-aa49-3c4af4d8925b</embedded-action>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="12f35a93-d11d-4759-aa54-76485bc0f1d6"
     responseSize="3946" serverUid="TrainingImage"
-    slaProfileEnabled="true" uid="58286c87-1358-4312-aa49-3c4af4d8925b" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="58286c87-1358-4312-aa49-3c4af4d8925b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b5447b56-6c5f-4194-b6e5-4c53ded51b5c.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b5447b56-6c5f-4194-b6e5-4c53ded51b5c.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -74,7 +75,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/button_add_to_cart.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/fdbf06f2-0489-4665-a341-ba5fc4865d5a.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetStore"
     uid="31e87ad8-8c0e-4b0e-bb15-ae2877a7c734" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_88c9762c-542a-4cea-a8c9-0c0c5e72c5c9.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_88c9762c-542a-4cea-a8c9-0c0c5e72c5c9.txt</requestContentFileDescription>

@@ -1,0 +1,543 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="leaflet.css" rel="stylesheet">
+<script src="leaflet.js?2"></script>
+</head>
+<body>
+<div id="leftnavigation">
+<div class="divHeader">NeoLoad Test Report</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Results summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Statistics Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Hot spots</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Errors</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alerts</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">General statistics</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Transaction statistics</a>
+</div>
+<div class="item">
+<a href="./settings.html">Execution context</a>
+</div>
+<div class="item">
+<a href="./servers.html">Servers</a>
+</div>
+<div class="item">
+<a href="./cloud.html">Cloud</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">User Paths</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Media Contents</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Push messages</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Monitors</a>
+</div>
+<div class="item">
+<a href="./alerts.html">Alerts</a>
+</div>
+<div class="item">
+<a href="./sla-profiles-details.html">SLA per SLA Profile</a>
+</div>
+<div class="item">
+<a href="./sla-details-results-per-vu.html">SLA per User Path</a>
+</div>
+<div class="item">
+<a href="./scenario_JPetstore4UserPaths.html">Scenario</a>
+</div>
+<div class="title">Main graphs</div>
+<div class="item">
+<a href="./Main graphs_pages.average.html">Average page response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_requests.average.html">Average request response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_transactions.average.html">Average response time (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Main graphs_hits.html">Requests per second</a>
+</div>
+<div class="item">
+<a href="./Main graphs_errors.html">Errors</a>
+</div>
+<div class="item">
+<a href="./Main graphs_throughput.html">Throughput</a>
+</div>
+<div class="item">
+<a href="./Main graphs_pages.average.vu.html">Response time against load</a>
+</div>
+<div class="item">
+<a href="./Main graphs_percentile.html">Distribution of Transaction Durations</a>
+</div>
+<div class="item">
+<a href="./Main graphs_alerts.html">Top 10 First Alerts</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_tricentis.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Cloud</div>
+<div class="cloud_map_content_template hidden_by_default">
+<div style="width: 100%; height: 20px;" id="report.map">
+<div style="float:left" class="h1" id="statistics_summary_title">Map</div>
+</div>
+<div class="wrapper shared cloud_map_content_template" align="center">
+<div align="center">
+<table class="cloud_map_content_template">
+<tr>
+<td>
+<div id="map" style="height:600px;"></div>
+</td>
+</tr>
+</table>
+<textarea id="zone_@asia-@pacific @australia #28@melbourne 3#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>Asia-Pacific Australia (Melbourne 3)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Google Compute Engine</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>994 (2.81%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.651s (<span class="badPercentage">+188.1%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@asia-@pacific @australia #28@melbourne 3#29')"></td><td><img id="graph_@asia-@pacific @australia #28@melbourne 3#29" src="images/hits_zone_@asia-@pacific @australia %2328@melbourne 3%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@asia-@pacific @australia #28@melbourne 3#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@asia-@pacific @taiwan #28@changhua @county#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>Asia-Pacific Taiwan (Changhua County)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Google Compute Engine</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>2114 (5.98%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.571s (<span class="badPercentage">+152.7%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@asia-@pacific @taiwan #28@changhua @county#29')"></td><td><img id="graph_@asia-@pacific @taiwan #28@changhua @county#29" src="images/hits_zone_@asia-@pacific @taiwan %2328@changhua @county%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@asia-@pacific @taiwan #28@changhua @county#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@europe @ireland #28@dublin 2#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>Europe Ireland (Dublin 2)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Microsoft Azure</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>3090 (8.75%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.224s (<span class="goodPercentage">-0.885%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@europe @ireland #28@dublin 2#29')"></td><td><img id="graph_@europe @ireland #28@dublin 2#29" src="images/hits_zone_@europe @ireland %2328@dublin 2%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@europe @ireland #28@dublin 2#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@europe @italy #28@milan 2#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>Europe Italy (Milan 2)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Google Compute Engine</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>3970 (11.2%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.309s (<span class="badPercentage">+36.7%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@europe @italy #28@milan 2#29')"></td><td><img id="graph_@europe @italy #28@milan 2#29" src="images/hits_zone_@europe @italy %2328@milan 2%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@europe @italy #28@milan 2#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@south-@america @chile #28@santiago#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>South-America Chile (Santiago)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Google Compute Engine</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>4925 (13.9%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.414s (<span class="badPercentage">+83.2%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@south-@america @chile #28@santiago#29')"></td><td><img id="graph_@south-@america @chile #28@santiago#29" src="images/hits_zone_@south-@america @chile %2328@santiago%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@south-@america @chile #28@santiago#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@u@s@a @central - @illinois #28@chicago 2#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>USA Central - Illinois (Chicago 2)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Microsoft Azure</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>5930 (16.8%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.071s (<span class="goodPercentage">-68.58%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@u@s@a @central - @illinois #28@chicago 2#29')"></td><td><img id="graph_@u@s@a @central - @illinois #28@chicago 2#29" src="images/hits_zone_@u@s@a @central - @illinois %2328@chicago 2%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@u@s@a @central - @illinois #28@chicago 2#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@u@s@a @east - @south @carolina #28@berkeley @county#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>USA East - South Carolina (Berkeley County)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Google Compute Engine</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>6730 (19%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.066s (<span class="goodPercentage">-70.8%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@u@s@a @east - @south @carolina #28@berkeley @county#29')"></td><td><img id="graph_@u@s@a @east - @south @carolina #28@berkeley @county#29" src="images/hits_zone_@u@s@a @east - @south @carolina %2328@berkeley @county%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@u@s@a @east - @south @carolina #28@berkeley @county#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><textarea id="zone_@u@s@a @west - @arizona #28@phoenix#29" style="display:none">
+<div>
+<table style="width: 400px;" class="cloud_map_content2">
+<tr>
+<td><b>Zone</b></td><td>USA West - Arizona (Phoenix)</td>
+</tr>
+<tr>
+<td><b>Cloud Provider</b></td><td>Microsoft Azure</td>
+</tr>
+<tr>
+<td><b>Load Generators</b></td><td>1</td>
+</tr>
+<tr>
+<td><b>Total requests</b></td><td>7579 (21.5%)</td>
+</tr>
+<tr>
+<td><b>Average Page response time</b></td><td>0.17s (<span class="goodPercentage">-24.78%</span>)
+                                    </td>
+</tr>
+<tr>
+<td><b>Error rate</b></td><td>0% (<span> - %</span>)
+                                    </td>
+</tr>
+</table>
+<br>
+<table style="width: 400px;" class="cloud_map_content3">
+<tr>
+<td style="vertical-align: middle;"><img src="images/left.png" onclick="javascript:previousGraph('@u@s@a @west - @arizona #28@phoenix#29')"></td><td><img id="graph_@u@s@a @west - @arizona #28@phoenix#29" src="images/hits_zone_@u@s@a @west - @arizona %2328@phoenix%2329.png"></td><td style="vertical-align: middle;"><img src="images/right.png" onclick="javascript:nextGraph('@u@s@a @west - @arizona #28@phoenix#29')"></td>
+</tr>
+</table>
+</div>
+</textarea><script type="text/javascript">
+            	/* BEGIN - unhide the cloud map. it won't appear when javascript is not supported because it requires javascript to function. */
+				var hiddenByDefaultElements = document.getElementsByClassName('hidden_by_default');
+				for (var i = 0; i < hiddenByDefaultElements.length; i++) {
+				    hiddenByDefaultElements[i].style.display = 'inline';
+				}
+            	/* END - unhide the cloud map */
+            
+                var map = L.map('map', {minZoom:1, maxZoom:6, closePopupOnClick:false}).setView([7.7105014999999995, 16.444510000000008], 1);
+                L.tileLayer('http://maps.neotys.com/oo_{x}_{y}_{z}.png', {attribution: '© <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors'}).addTo(map);
+                
+                var colors = ["red", "black", "green"];
+                var zoneIcons = new Object();
+                
+                for(var i=0;i<colors.length;i++) {
+                    zoneIcons[colors[i]] = new Object();
+                    var sizes = [16, 24, 32, 42, 48];
+                    for(var sizeIndex=0; sizeIndex<sizes.length; sizeIndex++ ) {
+                        var size = sizes[sizeIndex];
+                        console.log("images/localisation_pin_" + size + "_" + colors[i] + ".png");
+                        zoneIcons[colors[i]][size] = L.icon({
+                            iconUrl:    "images/localisation_pin_" + size + "_" + colors[i] + ".png",
+                            iconAnchor: [size/2+1, size]
+                        });
+                    }
+                }
+                
+                var graphsIndexes = new Object();
+                var zoneGraphs = new Object();
+                
+                        L.marker([-37.813611, 144.963056], {icon: zoneIcons["red"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([-37.813611, 144.963056]).setContent(document.getElementById('zone_@asia-@pacific @australia #28@melbourne 3#29').value), {offset: [0, 0]});
+                        graphsIndexes["@asia-@pacific @australia #28@melbourne 3#29"] = 0;
+                        zoneGraphs["@asia-@pacific @australia #28@melbourne 3#29"] = ["images/hits_zone_@asia-@pacific @australia %2328@melbourne 3%2329.png", "images/load_zone_@asia-@pacific @australia %2328@melbourne 3%2329.png"];
+                    
+                        L.marker([24.052022, 120.512798], {icon: zoneIcons["red"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([24.052022, 120.512798]).setContent(document.getElementById('zone_@asia-@pacific @taiwan #28@changhua @county#29').value), {offset: [0, 0]});
+                        graphsIndexes["@asia-@pacific @taiwan #28@changhua @county#29"] = 0;
+                        zoneGraphs["@asia-@pacific @taiwan #28@changhua @county#29"] = ["images/hits_zone_@asia-@pacific @taiwan %2328@changhua @county%2329.png", "images/load_zone_@asia-@pacific @taiwan %2328@changhua @county%2329.png"];
+                    
+                        L.marker([53.234614, -6.128442], {icon: zoneIcons["green"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([53.234614, -6.128442]).setContent(document.getElementById('zone_@europe @ireland #28@dublin 2#29').value), {offset: [0, 0]});
+                        graphsIndexes["@europe @ireland #28@dublin 2#29"] = 0;
+                        zoneGraphs["@europe @ireland #28@dublin 2#29"] = ["images/hits_zone_@europe @ireland %2328@dublin 2%2329.png", "images/load_zone_@europe @ireland %2328@dublin 2%2329.png"];
+                    
+                        L.marker([45.471515, 9.178281], {icon: zoneIcons["red"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([45.471515, 9.178281]).setContent(document.getElementById('zone_@europe @italy #28@milan 2#29').value), {offset: [0, 0]});
+                        graphsIndexes["@europe @italy #28@milan 2#29"] = 0;
+                        zoneGraphs["@europe @italy #28@milan 2#29"] = ["images/hits_zone_@europe @italy %2328@milan 2%2329.png", "images/load_zone_@europe @italy %2328@milan 2%2329.png"];
+                    
+                        L.marker([-33.4708904, -71.2041976], {icon: zoneIcons["red"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([-33.4708904, -71.2041976]).setContent(document.getElementById('zone_@south-@america @chile #28@santiago#29').value), {offset: [0, 0]});
+                        graphsIndexes["@south-@america @chile #28@santiago#29"] = 0;
+                        zoneGraphs["@south-@america @chile #28@santiago#29"] = ["images/hits_zone_@south-@america @chile %2328@santiago%2329.png", "images/load_zone_@south-@america @chile %2328@santiago%2329.png"];
+                    
+                        L.marker([41.672912, -87.583008], {icon: zoneIcons["green"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([41.672912, -87.583008]).setContent(document.getElementById('zone_@u@s@a @central - @illinois #28@chicago 2#29').value), {offset: [0, 0]});
+                        graphsIndexes["@u@s@a @central - @illinois #28@chicago 2#29"] = 0;
+                        zoneGraphs["@u@s@a @central - @illinois #28@chicago 2#29"] = ["images/hits_zone_@u@s@a @central - @illinois %2328@chicago 2%2329.png", "images/load_zone_@u@s@a @central - @illinois %2328@chicago 2%2329.png"];
+                    
+                        L.marker([32.981727, -80.034136], {icon: zoneIcons["green"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([32.981727, -80.034136]).setContent(document.getElementById('zone_@u@s@a @east - @south @carolina #28@berkeley @county#29').value), {offset: [0, 0]});
+                        graphsIndexes["@u@s@a @east - @south @carolina #28@berkeley @county#29"] = 0;
+                        zoneGraphs["@u@s@a @east - @south @carolina #28@berkeley @county#29"] = ["images/hits_zone_@u@s@a @east - @south @carolina %2328@berkeley @county%2329.png", "images/load_zone_@u@s@a @east - @south @carolina %2328@berkeley @county%2329.png"];
+                    
+                        L.marker([33.448376, -112.074036], {icon: zoneIcons["green"][32]}).addTo(map).bindPopup(L.popup({maxWidth:600}).setLatLng([33.448376, -112.074036]).setContent(document.getElementById('zone_@u@s@a @west - @arizona #28@phoenix#29').value), {offset: [0, 0]});
+                        graphsIndexes["@u@s@a @west - @arizona #28@phoenix#29"] = 0;
+                        zoneGraphs["@u@s@a @west - @arizona #28@phoenix#29"] = ["images/hits_zone_@u@s@a @west - @arizona %2328@phoenix%2329.png", "images/load_zone_@u@s@a @west - @arizona %2328@phoenix%2329.png"];
+                    
+                
+                
+                
+                function nextGraph(zoneName) {
+                    graphsIndexes[zoneName]++;
+                    if(graphsIndexes[zoneName]>=zoneGraphs[zoneName].length) {
+                        graphsIndexes[zoneName]=0;
+                    }
+                    updateZoneGraph(zoneName);
+                }
+                
+                function previousGraph(zoneName) {
+                    graphsIndexes[zoneName]--;
+                    if(graphsIndexes[zoneName]<0) {
+                        graphsIndexes[zoneName]=zoneGraphs[zoneName].length-1;
+                    }
+                    updateZoneGraph(zoneName);
+                }
+                
+                function updateZoneGraph(zoneName) {
+                    document.getElementById("graph_" + zoneName).src = zoneGraphs[zoneName][graphsIndexes[zoneName]];
+                    console.log(zoneGraphs[zoneName][graphsIndexes[zoneName]]);
+                }
+            </script>
+<br>
+</div>
+</div>
+</div>
+<div style="width: 100%; height: 20px;" id="report.graphs">
+<div style="float:left" class="h1" id="statistics_summary_title">Graphs</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<div align="center" class="graph_predefined" style="margin-top: 5px">
+<img src="images/avgDurationZones.png" alt="summary"></div>
+<div align="center" class="graph_predefined" style="margin-top: 5px">
+<img src="images/errorsZones.png" alt="summary"></div>
+</div>
+</div>
+<div style="width: 100%; height: 20px;" id="report.statistics">
+<div style="float:left" class="h1" id="statistics_summary_title">Statistics</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<table class="zones_table_content_template">
+<tr>
+<th>Zone</th><th>Cloud Provider</th><th>Load Generators</th><th>Total requests</th><th>Average requests/s</th><th>Avg. Page res. time</th><th>Error rate</th>
+</tr>
+<tr>
+<td class="line2left">Asia-Pacific Australia (Melbourne 3)</td><td class="line2left">Google Compute Engine</td><td class="line2left">1</td><td class="line2left">994 (2.81%)
+        </td><td class="line2left">1.0</td><td class="line2left">0.651s (<span class="badPercentage">+188.1%</span>)
+        </td><td class="line2left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left">Asia-Pacific Taiwan (Changhua County)</td><td class="line1left">Google Compute Engine</td><td class="line1left">1</td><td class="line1left">2114 (5.98%)
+        </td><td class="line1left">2.1</td><td class="line1left">0.571s (<span class="badPercentage">+152.7%</span>)
+        </td><td class="line1left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left">Europe Ireland (Dublin 2)</td><td class="line2left">Microsoft Azure</td><td class="line2left">1</td><td class="line2left">3090 (8.75%)
+        </td><td class="line2left">3.1</td><td class="line2left">0.224s (<span class="goodPercentage">-0.885%</span>)
+        </td><td class="line2left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left">Europe Italy (Milan 2)</td><td class="line1left">Google Compute Engine</td><td class="line1left">1</td><td class="line1left">3970 (11.2%)
+        </td><td class="line1left">4.0</td><td class="line1left">0.309s (<span class="badPercentage">+36.7%</span>)
+        </td><td class="line1left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left">South-America Chile (Santiago)</td><td class="line2left">Google Compute Engine</td><td class="line2left">1</td><td class="line2left">4925 (13.9%)
+        </td><td class="line2left">4.9</td><td class="line2left">0.414s (<span class="badPercentage">+83.2%</span>)
+        </td><td class="line2left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left">USA Central - Illinois (Chicago 2)</td><td class="line1left">Microsoft Azure</td><td class="line1left">1</td><td class="line1left">5930 (16.8%)
+        </td><td class="line1left">6.0</td><td class="line1left">0.071s (<span class="goodPercentage">-68.58%</span>)
+        </td><td class="line1left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left">USA East - South Carolina (Berkeley County)</td><td class="line2left">Google Compute Engine</td><td class="line2left">1</td><td class="line2left">6730 (19%)
+        </td><td class="line2left">6.8</td><td class="line2left">0.066s (<span class="goodPercentage">-70.8%</span>)
+        </td><td class="line2left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left">USA West - Arizona (Phoenix)</td><td class="line1left">Microsoft Azure</td><td class="line1left">1</td><td class="line1left">7579 (21.5%)
+        </td><td class="line1left">7.6</td><td class="line1left">0.17s (<span class="goodPercentage">-24.78%</span>)
+        </td><td class="line1left">0% (<span> - %</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left">Global</td><td class="line2left"></td><td class="line2left">8</td><td class="line2left">35332 (100%)
+        </td><td class="line2left">35.5</td><td class="line2left">0.226s
+        </td><td class="line2left">0%
+        </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

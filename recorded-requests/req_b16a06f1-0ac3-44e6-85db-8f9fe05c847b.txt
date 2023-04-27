@@ -1,0 +1,14 @@
+POST https://update.googleapis.com/service/update2/json?cup2key=12:9xjAfvFscXnADyiWLao_tJhRcf2Qowa81Gp966T2zyA&cup2hreq=5e5204c7ec5ba6b85cd4c0dd12dbca5d98cf1a2ef667f1b9fdfd073d348d4b28 HTTP/2.0
+content-length: 1084
+x-goog-update-appid: ghbmnnjooekpmoecnnnilnnbdlolhkhi,nmmhkkegccagdldgiimedpiccmgmieda
+x-goog-update-interactivity: bg
+x-goog-update-updater: chromecrx-103.0.5060.134
+content-type: application/json
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+
+{"request":{"@os":"win","@updater":"chromecrx","acceptformat":"crx3","app":[{"appid":"ghbmnnjooekpmoecnnnilnnbdlolhkhi","cohort":"1::","enabled":true,"installedby":"external","lang":"en-US","packages":{"package":[{"fp":"2.1.60.0"}]},"ping":{"ping_freshness":"{e7a025a2-21ef-4a98-9986-778b7cf360d9}","rd":5940},"updatecheck":{},"version":"1.60.0"},{"appid":"nmmhkkegccagdldgiimedpiccmgmieda","cohort":"1::","enabled":true,"installedby":"other","lang":"en-US","packages":{"package":[{"fp":"2.1.0.0.6"}]},"ping":{"ping_freshness":"{c8de5b2e-38ff-4ef0-8feb-9f187584db96}","rd":5940},"updatecheck":{},"version":"1.0.0.6"}],"arch":"x86","dedup":"cr","domainjoined":false,"hw":{"avx":true,"physmemory":8,"sse":true,"sse2":true,"sse3":true,"sse41":true,"sse42":true,"ssse3":true},"ismachine":true,"nacl_arch":"x86-64","os":{"arch":"x86_64","platform":"Windows","version":"10.0.14393.5786"},"prodversion":"103.0.5060.134","protocol":"3.1","requestid":"{77e20d19-a255-4708-856c-06d9706c2263}","sessionid":"{a768a06c-a267-4e5c-b60b-ab870f488572}","updaterversion":"103.0.5060.134","wow64":true}}

@@ -2,7 +2,7 @@
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6e4d995b-4e49-47f3-8422-8ff39d7c1415.zip"
-    slaProfileEnabled="false" thinkTime="8767"
+    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="8767"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="6e4d995b-4e49-47f3-8422-8ff39d7c1415">
     <embedded-action>9f441bbf-8fe2-47df-b110-0dcd128cda66</embedded-action>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="cee001ab-0228-4013-9e51-c6d05e4e9bd4"
     responseSize="3776" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="9f441bbf-8fe2-47df-b110-0dcd128cda66" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="9f441bbf-8fe2-47df-b110-0dcd128cda66" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_16471d89-503c-4bf2-ae71-f3b3b4d8c1b8.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_16471d89-503c-4bf2-ae71-f3b3b4d8c1b8.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -74,7 +75,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/button_add_to_cart.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6e4d995b-4e49-47f3-8422-8ff39d7c1415.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetStore"
     uid="01ef445e-f714-44e8-b52b-9f2cc4d294b2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9a516453-9dec-4040-afd1-08f48a3dddd7.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9a516453-9dec-4040-afd1-08f48a3dddd7.txt</requestContentFileDescription>

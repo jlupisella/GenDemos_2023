@@ -2,9 +2,9 @@
     name="/jpetstore/shop/addItemToCart.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe.zip"
-    slaProfileEnabled="false" thinkTime="10381"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    thinkTime="10381" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe">
     <embedded-action>779546c6-8402-41f8-8a18-5c9a46b16196</embedded-action>
     <embedded-action>a394e4c4-9b19-495e-b71c-0e498edc563b</embedded-action>
     <embedded-action>1ac1012c-67c2-42b0-b9a5-b3d0959d6545</embedded-action>
@@ -21,7 +21,8 @@
     recordedResponseCode="200" recordedResponseTime="42"
     refererUid="574d5c74-d2de-4383-9974-3004a8f17520"
     responseSize="6836" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="779546c6-8402-41f8-8a18-5c9a46b16196" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="779546c6-8402-41f8-8a18-5c9a46b16196" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_6cc38c5c-c7f4-4692-a0a8-3fbd2a266dde.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_ee3ac8c9-d556-4f45-917d-00efa570f0a0.0.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="workingItemId"
@@ -59,7 +60,8 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe.zip"
     recordedResponseCode="200" recordedResponseTime="41"
     responseSize="1189" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="a394e4c4-9b19-495e-b71c-0e498edc563b" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="a394e4c4-9b19-495e-b71c-0e498edc563b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_e541738f-5a06-41d8-b2db-67d100038642.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_afe3ae1c-3f8d-4f13-823e-f719e317bcfd.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -96,7 +98,8 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe.zip"
     recordedResponseCode="200" recordedResponseTime="39"
     responseSize="489" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="1ac1012c-67c2-42b0-b9a5-b3d0959d6545" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="1ac1012c-67c2-42b0-b9a5-b3d0959d6545" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_d36c0259-933b-4980-bdef-703766ea2b7b.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_8683245b-957a-4f94-929f-9fa69b9dc244.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -133,7 +136,8 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/a73bd778-b3cb-4cba-9ac4-f33b2f5e15fe.zip"
     recordedResponseCode="200" recordedResponseTime="23"
     responseSize="534" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="3e261aac-73ee-4b4a-99e3-699e65d35c87" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="JPetStore"
+    uid="3e261aac-73ee-4b4a-99e3-699e65d35c87" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_4ab4112f-12b2-4525-a5ec-7ca62185b8b1.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_cf1b7edf-1799-43f5-b3fd-dea7318dbff6.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>

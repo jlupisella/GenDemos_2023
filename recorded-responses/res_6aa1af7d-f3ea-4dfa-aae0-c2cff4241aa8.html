@@ -1,0 +1,160 @@
+
+
+
+
+
+<html><head><title>JPetStore Demo</title>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<META HTTP-EQUIV="Cache-Control" CONTENT="max-age=0">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="expires" content="0">
+<META HTTP-EQUIV="Expires" CONTENT="Tue, 01 Jan 1980 1:00:00 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+</head>
+
+<body bgcolor="white">
+
+<table background="../images/bkg-topbar.gif" border="0" cellspacing="0" cellpadding="5" width="100%">
+  <tbody>
+  <tr>
+    <td><a href="/jpetstore/shop/index.shtml"><img border="0" src="../images/logo-topbar.gif" /></a></td>
+    <td align="right"><a href="/jpetstore/shop/viewCart.shtml"><img border="0" name="img_cart" src="../images/cart.gif" /></a>
+      <img border="0" src="../images/separator.gif" />
+
+
+
+  
+        <a href="/jpetstore/shop/signonForm.shtml"><img border="0" name="img_signin" src="../images/sign-in.gif" /></a>
+  
+
+
+
+  
+
+
+      <img border="0" src="../images/separator.gif" /><a href="../help.html"><img border="0" name="img_help" src="../images/help.gif" /></a>
+    </td>
+    <td align="left" valign="bottom">
+      <form name="catalogBean" method="post" action="/jpetstore/shop/searchProducts.shtml">
+        <input name="keyword" size="14" />&nbsp;<input border="0" src="../images/search.gif" type="image" />
+      </form>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<center>
+<a href="/jpetstore/shop/viewCategory.shtml?categoryId=FISH"><img border="0" src="../images/sm_fish.gif" /></a>
+<img border="0" src="../images/separator.gif" />
+<a href="/jpetstore/shop/viewCategory.shtml?categoryId=DOGS"><img border="0" src="../images/sm_dogs.gif" /></a>
+<img border="0" src="../images/separator.gif" />
+<a href="/jpetstore/shop/viewCategory.shtml?categoryId=REPTILES"><img border="0" src="../images/sm_reptiles.gif" /></a>
+<img border="0" src="../images/separator.gif" />
+<a href="/jpetstore/shop/viewCategory.shtml?categoryId=CATS"><img border="0" src="../images/sm_cats.gif" /></a>
+<img border="0" src="../images/separator.gif" />
+<a href="/jpetstore/shop/viewCategory.shtml?categoryId=BIRDS"><img border="0" src="../images/sm_birds.gif" /></a>
+</center>
+
+
+
+
+<!-- Support for non-traditional but simple message -->
+
+
+<!-- Support for non-traditional but simpler use of errors... -->
+
+
+
+
+<form name="accountBean" method="post" action="/jpetstore/shop/newAccount.shtml">
+
+<input type="hidden" name="validation" value="new">
+
+<TABLE cellpadding=10 cellspacing=0 align=center border=1 bgcolor=#dddddd><TR><TD>
+
+
+<FONT color=darkgreen><H3>User Information</H3></FONT>
+<TABLE bgcolor="#008800" border=0 cellpadding=3 cellspacing=1 bgcolor=#FFFF88>
+<TR bgcolor=#FFFF88><TD>
+User ID:</TD><TD><input type="text" name="username" value="">
+</TD></TR><TR bgcolor=#FFFF88><TD>
+New password:</TD><TD><input type="password" name="password" value="">
+</TD></TR><TR bgcolor=#FFFF88><TD>
+Repeat password:</TD><TD> <input type="password" name="repeatedPassword" value="">
+</TD></TR>
+</TABLE>
+
+
+
+
+
+<FONT color=darkgreen><H3>Account Information</H3></FONT>
+
+<TABLE bgcolor="#008800" border=0 cellpadding=3 cellspacing=1 bgcolor=#FFFF88>
+<TR bgcolor=#FFFF88><TD>
+First name:</TD><TD><input type="text" name="account.firstName" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Last name:</TD><TD><input type="text" name="account.lastName" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Email:</TD><TD><input type="text" name="account.email" size="40" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Phone:</TD><TD><input type="text" name="account.phone" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Address 1:</TD><TD><input type="text" name="account.address1" size="40" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Address 2:</TD><TD><input type="text" name="account.address2" size="40" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+City: </TD><TD><input type="text" name="account.city" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+State:</TD><TD><input type="text" name="account.state" size="4" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Zip:</TD><TD><input type="text" name="account.zip" size="10" value="">
+</TD></TR>
+<TR bgcolor=#FFFF88><TD>
+Country: </TD><TD><input type="text" name="account.country" size="15" value="">
+</TD></TR>
+</TABLE>
+
+
+<FONT color=darkgreen><H3>Profile Information</H3></FONT>
+
+<TABLE bgcolor="#008800" border=0 cellpadding=3 cellspacing=1 >
+<TR bgcolor=#FFFF88><TD>
+Language Preference:</TD><TD>
+<select name="account.languagePreference"><option value="english">english</option>
+<option value="japanese">japanese</option></select>
+</TD></TR><TR bgcolor=#FFFF88><TD>
+Favourite Category:</TD><TD>
+<select name="account.favouriteCategoryId"><option value="FISH">FISH</option>
+<option value="DOGS">DOGS</option>
+<option value="REPTILES">REPTILES</option>
+<option value="CATS">CATS</option>
+<option value="BIRDS">BIRDS</option></select>
+</TD></TR><TR bgcolor=#FFFF88><TD colspan=2>
+<input type="checkbox" name="account.listOption" value="on"> Enable MyList
+</TD></TR><TR bgcolor=#FFFF88><TD colspan=2>
+ <input type="checkbox" name="account.bannerOption" value="on"> Enable MyBanner
+</TD></TR>
+</TABLE>
+
+</TABLE>
+
+<BR><CENTER>
+<input border=0 type="image" src="../images/button_submit.gif" />
+</CENTER>
+
+</form>
+
+
+
+<p align="center">
+<a href="http://www.ibatis.com"><img border="0" align="center" src="../images/poweredby.gif" /></a>
+</p>

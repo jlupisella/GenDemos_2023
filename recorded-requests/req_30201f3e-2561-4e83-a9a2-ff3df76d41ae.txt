@@ -1,0 +1,11 @@
+GET http://34.228.15.47/jpetstore/images/button_checkout.gif HTTP/1.1
+Host: 34.228.15.47
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: keep-alive
+Referer: http://34.228.15.47/jpetstore/shop/addItemToCart.shtml?workingItemId=EST-6
+Cookie: JSESSIONID=C2F568AC92F440AD6B435BB2637E63FC
+

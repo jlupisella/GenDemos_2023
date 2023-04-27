@@ -1,0 +1,13 @@
+var sw = '/service_worker.jsdbx';
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register(sw).then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+document.write('<link rel="manifest" href="/manifest.json.jsdbx"> <meta name="theme-color" content="#004C97" /> <meta name="msapplication-navbutton-color" content="#004C97">');

@@ -1,4 +1,4 @@
-<http-server hostname="34.229.222.0" port="80" ssl="false"
+<http-server hostname="3.93.182.231" port="80" ssl="false"
     uid="TrainingImage" urlrewriting-argument-name="jsessionid"
     urlrewriting-enabled="true" urlrewriting-path-extension="true"
     urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>
