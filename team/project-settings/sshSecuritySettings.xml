@@ -1,3 +1,4 @@
 <sshSecuritySettings>
-    <known_hosts><![CDATA[3.93.182.231 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPniAOY6963scbfUlYHBmBf/aVFbbiDtJd9wKveC3tBM]]></known_hosts>
+    <known_hosts><![CDATA[3.93.182.231 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPniAOY6963scbfUlYHBmBf/aVFbbiDtJd9wKveC3tBM
+54.196.252.100 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO/0VQqW77bXmQym200mHx1H41p7SgdhNWUBg0+DBXjM]]></known_hosts>
 </sshSecuritySettings>

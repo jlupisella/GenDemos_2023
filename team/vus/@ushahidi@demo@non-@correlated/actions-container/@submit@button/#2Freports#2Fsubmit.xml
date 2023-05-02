@@ -48,7 +48,7 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
     <multiparts>
         <multipart-string name="form_auth_token" recordRawValue=""
-            value="c07e3dbf7ba59c0836393149ed666ccf81d3d013c7b7f6e98558090ec934a066" valueMode="USE_VALUE">
+            value="c07e3dbf7ba59c0836393149ed666ccf81d3d013c7b7f6e98558090ec934a066" valueMode="USE_EXTRACT">
             <variable-extractor assertionOnNoMatch="true"
                 defaultValue="&lt;NOT FOUND>" displayMode="1"
                 endsWithSimple="" extractFromVarNameAdv=""

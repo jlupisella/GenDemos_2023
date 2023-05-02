@@ -1,4 +1,4 @@
-<variable-file delimiters=";" filename="custom-resources/users053c66f2-8ab4-4f6c-a88a-54ba033a939d.csv" name="JPetUsers" offset="1" order="1" policy="4" range="1" uid="6eba86d7-3f8d-474b-a429-f586484804d5" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<variable-file delimiters=";" filename="custom-resources/users053c66f2-8ab4-4f6c-a88a-54ba033a939d.csv" name="JPetUsers" offset="1" order="1" policy="4" range="4" uid="6eba86d7-3f8d-474b-a429-f586484804d5" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
 <column name="Password" number="1"/>
 <column name="Username" number="0"/>
 </variable-file>

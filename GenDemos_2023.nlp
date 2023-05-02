@@ -13,3 +13,4 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/jlupisella/GenDemos_2023
+monitor.tls.insecure=false
