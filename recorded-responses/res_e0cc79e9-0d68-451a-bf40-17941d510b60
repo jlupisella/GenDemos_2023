@@ -1,0 +1,15 @@
+{
+  "id" : "5ed5350f-9f2f-4e2a-9acb-cdbcee874256",
+  "name" : "New Test 1",
+  "description" : "My description",
+  "userModifierName" : "userModifierName",
+  "creationDate" : 1582550441,
+  "lastUpdateDate" : 1582550442,
+  "controllerZoneId" : "defaultzone",
+  "lgZoneIds" : {
+    "defaultzone" : 10,
+    "ZoneId" : 5
+  },
+  "nextRunId" : 2.3021358869347655,
+  "testResultNamingPattern" : "#${runID}"
+}

@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/index.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
-    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="6204"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="6a31b89f-714b-44fa-b7a5-e583d0a5d478">
+    slaProfileEnabled="false" slaProfileName="JPetStore"
+    thinkTime="6204" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="6a31b89f-714b-44fa-b7a5-e583d0a5d478">
     <embedded-action>cad845a9-60a9-40e3-a386-28420998079d</embedded-action>
     <embedded-action>d8d7f304-6a4d-47e8-80a3-6ded3b490363</embedded-action>
     <embedded-action>f79c6e4e-8bff-493b-8242-3d6858eda2f3</embedded-action>
@@ -26,7 +26,7 @@
     path="/jpetstore/shop/index.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="6350"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="cad845a9-60a9-40e3-a386-28420998079d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_aebe7470-6bc6-4bb1-8438-ba6622e85a68.html</responsePageFileDescription>
@@ -69,7 +69,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/sm_fish.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="d8d7f304-6a4d-47e8-80a3-6ded3b490363" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_73e24e60-8938-43de-89f5-66e02cf963e9.gif</responsePageFileDescription>
@@ -105,7 +105,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/cats_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="f79c6e4e-8bff-493b-8242-3d6858eda2f3" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b93e9fd2-e395-40ef-9f0f-a33a83733d6b.gif</responsePageFileDescription>
@@ -141,7 +141,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/sm_birds.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="902433a1-4c4b-422c-971a-d15660b61037" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_aa9f2da4-95c1-4d24-9386-f6ce1d879cbb.gif</responsePageFileDescription>
@@ -177,7 +177,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/birds_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="1ba676bb-5005-4262-be80-545b318d234b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_97546e57-eb11-4849-b97a-689f75337df3.gif</responsePageFileDescription>
@@ -213,7 +213,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/reptiles_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="9c736d2f-bab0-440b-80ee-16f602279b91" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9618e748-9534-457b-be0b-d9cff5b49d57.gif</responsePageFileDescription>
@@ -249,7 +249,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/fish_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="a01f8dc7-709e-4567-aa7b-8d0a2ce20fe2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d708b05a-5f8d-495a-b78b-624f42f6efaa.gif</responsePageFileDescription>
@@ -285,7 +285,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/dogs_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="beeb9cca-831b-4d51-8a4c-30b16392411c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_73269d10-6eaf-49de-b8fe-efefef5e37f2.gif</responsePageFileDescription>
@@ -321,7 +321,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/sm_dogs.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="9d9dba51-3c84-4b53-9c29-3035ca21e0b8" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6bbe8986-d809-426c-a330-07c014f1b8a0.gif</responsePageFileDescription>
@@ -357,7 +357,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/splash.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="2afbe7b0-09e2-4bca-9b14-db9868ec3e19" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1b29825c-2885-47f1-8b1d-2453babecff7.gif</responsePageFileDescription>
@@ -393,7 +393,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/sm_cats.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="d9e7940c-a6ee-443a-ba6b-abbedd9eae51" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_0de8c498-f72a-4172-88ce-0890c709048e.gif</responsePageFileDescription>
@@ -429,7 +429,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/sm_reptiles.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/6a31b89f-714b-44fa-b7a5-e583d0a5d478.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="0cebf2a6-dde2-4aec-8239-1fb9380be776" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a12cef12-47f0-459b-a215-04114100597b.gif</responsePageFileDescription>

@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/signon.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/afce683f-cc04-41d3-aff7-f542a361db34.zip"
-    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="0"
+    slaProfileEnabled="false" slaProfileName="JPetStore" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="afce683f-cc04-41d3-aff7-f542a361db34">
     <embedded-action>cb7dd034-36c1-421b-851e-1c73f7238838</embedded-action>
@@ -20,7 +20,7 @@
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/afce683f-cc04-41d3-aff7-f542a361db34.zip"
     recordedResponseCode="200" recordedResponseTime="39"
     responseSize="7306" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetStore"
+    slaProfileEnabled="false" slaProfileName="JPetStore"
     uid="cb7dd034-36c1-421b-851e-1c73f7238838" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8yfSZ4PTUyJnk9MTM=]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_cust_a893581d-f990-47b0-aa63-3f1ea9af6286.html</responsePageFileDescription>
@@ -43,9 +43,6 @@
         regExpAdv="categoryId=(.*?)&amp;id=(.*?)&quot;>"
         setDefaultValue="true" startsWithSimple="" template="$1$"
         templateAdv="$1$" uid="18fb0a6b-b7fd-4106-a125-cdebd6b50e20" xpath=""/>
-    <assertions>
-        <assertion-content name="assertion_1" notType="true" pattern="Invalid"/>
-    </assertions>
     <parameter encodeName="false" encodeValue="false" name="username"
         recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
     <parameter encodeName="false" encodeValue="false" name="password"
@@ -89,7 +86,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/afce683f-cc04-41d3-aff7-f542a361db34.zip"
     recordedResponseCode="200" recordedResponseTime="50"
     responseSize="290" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetStore"
+    slaProfileEnabled="false" slaProfileName="JPetStore"
     uid="dc39fc9f-df37-4c9c-a0dc-f6532d4be48f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_44cf7c63-78ac-4d5a-97a1-4846ed00b887.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_56f1af88-2f30-468a-aeb1-8a4b93b6afbc.txt</requestContentFileDescription>
@@ -127,7 +124,7 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/afce683f-cc04-41d3-aff7-f542a361db34.zip"
     recordedResponseCode="200" recordedResponseTime="50"
     responseSize="6161" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetStore"
+    slaProfileEnabled="false" slaProfileName="JPetStore"
     uid="df01b60d-c537-45f8-ade5-3ae5dfad2f4a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_460280b3-499f-423a-b097-9be9c58a380d.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_c97c777a-b388-4fda-8dc6-4b7ca545415b.txt</requestContentFileDescription>
@@ -165,7 +162,7 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/afce683f-cc04-41d3-aff7-f542a361db34.zip"
     recordedResponseCode="200" recordedResponseTime="48"
     responseSize="455" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetStore"
+    slaProfileEnabled="false" slaProfileName="JPetStore"
     uid="eb7f3193-c06c-405c-99eb-e49443fbdc35" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_e6c6f47b-cd9c-41ce-a087-6f23fcd22b1a.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_23881202-27a4-4a85-8fca-55bd92319250.txt</requestContentFileDescription>

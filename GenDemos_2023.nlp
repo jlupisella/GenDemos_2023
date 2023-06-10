@@ -14,3 +14,6 @@ project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/jlupisella/GenDemos_2023
 monitor.tls.insecure=false
+project.workspace=5f3aaa9b7c07bd0001bf718c
+project.test-settings=75e34194-73bd-485e-be35-947c12e1274f
+project.test-settings-name=JPet LG 3 LVP Ramp VU 29 Pop 2 User Paths

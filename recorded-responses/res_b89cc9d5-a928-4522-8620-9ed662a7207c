@@ -1,0 +1,23 @@
+[ {
+  "deletionFilter" : {
+    "resultNamePattern" : "toRemove.*"
+  },
+  "deletionSetting" : {
+    "retentionCount" : 5
+  },
+  "id" : "id",
+  "lastModifiedDate" : 9,
+  "lastModifiedUserName" : "lastModifiedUserName",
+  "workspaceId" : "workspaceId"
+}, {
+  "deletionFilter" : {
+    "resultNamePattern" : "toRemove.*"
+  },
+  "deletionSetting" : {
+    "retentionCount" : 5
+  },
+  "id" : "id",
+  "lastModifiedDate" : 9,
+  "lastModifiedUserName" : "lastModifiedUserName",
+  "workspaceId" : "workspaceId"
+} ]

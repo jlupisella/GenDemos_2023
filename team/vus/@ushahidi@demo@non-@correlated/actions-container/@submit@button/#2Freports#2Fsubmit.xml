@@ -48,7 +48,7 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
     <multiparts>
         <multipart-string name="form_auth_token" recordRawValue=""
-            value="c07e3dbf7ba59c0836393149ed666ccf81d3d013c7b7f6e98558090ec934a066" valueMode="USE_EXTRACT">
+            value="c07e3dbf7ba59c0836393149ed666ccf81d3d013c7b7f6e98558090ec934a066" valueMode="USE_VALUE">
             <variable-extractor assertionOnNoMatch="true"
                 defaultValue="&lt;NOT FOUND>" displayMode="1"
                 endsWithSimple="" extractFromVarNameAdv=""
@@ -137,9 +137,6 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     slaProfileEnabled="false" uid="e0f2bab3-fa4d-493c-91e0-2a3488a9b10f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_8208e79f-aaa0-4821-92de-f894ac555cdb.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_8208e79f-aaa0-4821-92de-f894ac555cdb.txt</requestContentFileDescription>
-    <assertions>
-        <assertion-content name="assertion_1" notType="false" pattern="Please give us feedback"/>
-    </assertions>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
     <header name="Accept-Encoding" value="gzip, deflate, br"/>
     <header name="Accept-Language" value="en-US,en;q=0.5"/>

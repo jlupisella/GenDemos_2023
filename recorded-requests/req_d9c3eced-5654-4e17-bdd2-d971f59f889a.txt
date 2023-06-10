@@ -1,0 +1,11 @@
+GET http://34.229.222.0/jpetstore/images/button_next.gif HTTP/1.1
+Accept: image/webp,*/*
+Accept-Encoding: br,deflate,gzip
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Referer: http://34.228.15.47/jpetstore/shop/viewCategory.shtml?categoryId=FISH&id=1675791886774
+Host: 34.229.222.0
+Cookie: dtCookie=v_4_srv_8_sn_55631281A875C5BD84B7C8409DA3B199_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; JSESSIONID=E7BDD4AE0BFF4912ED15DF62D35B5A94
+

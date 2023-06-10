@@ -1,0 +1,1205 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="http_pages_template">
+<div id="leftnavigation">
+<div class="divHeader">NeoLoad Test Report</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Results summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Statistics Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Hot spots</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Errors</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alerts</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">General statistics</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Transaction statistics</a>
+</div>
+<div class="item">
+<a href="./settings.html">Execution context</a>
+</div>
+<div class="item">
+<a href="./servers.html">Servers</a>
+</div>
+<div class="item">
+<a href="./cloud.html">Cloud</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">User Paths</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Media Contents</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Push messages</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Monitors</a>
+</div>
+<div class="item">
+<a href="./alerts.html">Alerts</a>
+</div>
+<div class="item">
+<a href="./sla-profiles-details.html">SLA per SLA Profile</a>
+</div>
+<div class="item">
+<a href="./sla-details-results-per-vu.html">SLA per User Path</a>
+</div>
+<div class="item">
+<a href="./scenario_JPetstore4UserPaths.html">Scenario</a>
+</div>
+<div class="title">Main graphs</div>
+<div class="item">
+<a href="./Main graphs_pages.average.html">Average page response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_requests.average.html">Average request response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_transactions.average.html">Average response time (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Main graphs_hits.html">Requests per second</a>
+</div>
+<div class="item">
+<a href="./Main graphs_errors.html">Errors</a>
+</div>
+<div class="item">
+<a href="./Main graphs_throughput.html">Throughput</a>
+</div>
+<div class="item">
+<a href="./Main graphs_pages.average.vu.html">Response time against load</a>
+</div>
+<div class="item">
+<a href="./Main graphs_percentile.html">Distribution of Transaction Durations</a>
+</div>
+<div class="item">
+<a href="./Main graphs_alerts.html">Top 10 First Alerts</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_tricentis.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Pages</div>
+<div style="width: 100%; height: 20px;" id="report.shared">
+<div style="float:left" class="h1" id="statistics_summary_title">Shared Containers</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<table class="hierarchical_shared_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Avg</th><th width="10%">Max</th><th width="10%">Count</th><th width="10%">Err</th><th width="10%">% of Err</th><th width="10%">SLA Profile</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">Empty list</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="JPetstore">
+<div style="float:left" class="h1" id="statistics_summary_title">JPetstore</div>
+<a href="#JPetstoreBrowse" class="navigation next" title="JPetstoreBrowse"></a>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Avg</th><th width="10%">Max</th><th width="10%">Count</th><th width="10%">Err</th><th width="10%">% of Err</th><th width="10%">SLA Profile</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">JPetstore</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.817</td><td class="line2right bordered">30.8</td><td class="line2right bordered">115.8</td><td class="line2right bordered">184</td><td class="line2right bordered">168</td><td class="line2right bordered">91.3</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.72</td><td class="line1right bordered">4.38</td><td class="line1right bordered">12.6</td><td class="line1right bordered">1,194</td><td class="line1right bordered">1,002</td><td class="line1right bordered">83.9</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Enter</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.128</td><td class="line2right bordered">0.752</td><td class="line2right bordered">3.51</td><td class="line2right bordered">1,367</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.128</td><td class="line1right bordered">0.752</td><td class="line1right bordered">3.51</td><td class="line1right bordered">1,367</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Home</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.093</td><td class="line2right bordered">0.511</td><td class="line2right bordered">2.72</td><td class="line2right bordered">1,359</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.093</td><td class="line1right bordered">0.511</td><td class="line1right bordered">2.72</td><td class="line1right bordered">1,359</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Login</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.054</td><td class="line2right bordered">0.372</td><td class="line2right bordered">4.08</td><td class="line2right bordered">1,335</td><td class="line2right bordered">1,127</td><td class="line2right bordered">84.4</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore...ssionid=1BE83382FB1B1953A535F34EA986C2F3</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.054</td><td class="line1right bordered">0.311</td><td class="line1right bordered">2.49</td><td class="line1right bordered">1,335</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signon.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0</td><td class="line2right bordered">0.06</td><td class="line2right bordered">1.59</td><td class="line2right bordered">1,335</td><td class="line2right bordered">1,127</td><td class="line2right bordered">84.4</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Category</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.02</td><td class="line1right bordered">0.168</td><td class="line1right bordered">1.31</td><td class="line1right bordered">1,277</td><td class="line1right bordered">1,069</td><td class="line1right bordered">83.7</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.02</td><td class="line2right bordered">0.167</td><td class="line2right bordered">1.31</td><td class="line2right bordered">1,315</td><td class="line2right bordered">1,107</td><td class="line2right bordered">84.2</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Product</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.252</td><td class="line1right bordered">2.21</td><td class="line1right bordered">1,273</td><td class="line1right bordered">1,069</td><td class="line1right bordered">84</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.252</td><td class="line2right bordered">2.21</td><td class="line2right bordered">1,273</td><td class="line2right bordered">1,069</td><td class="line2right bordered">84</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Item</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.074</td><td class="line1right bordered">0.46</td><td class="line1right bordered">3.58</td><td class="line1right bordered">1,272</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.46</td><td class="line2right bordered">3.58</td><td class="line2right bordered">1,272</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">AddToCart</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.075</td><td class="line1right bordered">0.449</td><td class="line1right bordered">3.13</td><td class="line1right bordered">1,270</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.075</td><td class="line2right bordered">0.449</td><td class="line2right bordered">3.13</td><td class="line2right bordered">1,270</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">ProceedToCheckout</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.284</td><td class="line1right bordered">3.24</td><td class="line1right bordered">1,269</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/checkout.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.284</td><td class="line2right bordered">3.24</td><td class="line2right bordered">1,269</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Continue</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.238</td><td class="line1right bordered">2.2</td><td class="line1right bordered">1,266</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrderForm.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.238</td><td class="line2right bordered">2.2</td><td class="line2right bordered">1,266</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Submit</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.224</td><td class="line1right bordered">1.89</td><td class="line1right bordered">1,261</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrder.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.224</td><td class="line2right bordered">1.89</td><td class="line2right bordered">1,261</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Confirm</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.218</td><td class="line1right bordered">1.36</td><td class="line1right bordered">1,253</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrder.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.218</td><td class="line2right bordered">1.36</td><td class="line2right bordered">1,253</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackHome</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.216</td><td class="line1right bordered">1.4</td><td class="line1right bordered">1,216</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.216</td><td class="line2right bordered">1.4</td><td class="line2right bordered">1,216</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">LogOut</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.219</td><td class="line1right bordered">1.31</td><td class="line1right bordered">1,194</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signoff.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.219</td><td class="line2right bordered">1.31</td><td class="line2right bordered">1,194</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="JPetstoreBrowse">
+<div style="float:left" class="h1" id="statistics_summary_title">JPetstoreBrowse</div>
+<a href="#JPetstore" class="navigation previous" title="JPetstore"></a><a href="#JPetstore_multi_items" class="navigation next" title="JPetstore_multi_items"></a>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Avg</th><th width="10%">Max</th><th width="10%">Count</th><th width="10%">Err</th><th width="10%">% of Err</th><th width="10%">SLA Profile</th>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">JPetstoreBrowse</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">1.82</td><td class="line1right bordered">44.2</td><td class="line1right bordered">315</td><td class="line1right bordered">207</td><td class="line1right bordered">1</td><td class="line1right bordered">0.5</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.757</td><td class="line2right bordered">4.56</td><td class="line2right bordered">301.8</td><td class="line2right bordered">1,881</td><td class="line2right bordered">1</td><td class="line2right bordered">0.1</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Enter</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.128</td><td class="line1right bordered">0.764</td><td class="line1right bordered">4.24</td><td class="line1right bordered">2,088</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.128</td><td class="line2right bordered">0.764</td><td class="line2right bordered">4.24</td><td class="line2right bordered">2,088</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Home</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.092</td><td class="line1right bordered">0.608</td><td class="line1right bordered">3.83</td><td class="line1right bordered">2,075</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.092</td><td class="line2right bordered">0.608</td><td class="line2right bordered">3.83</td><td class="line2right bordered">2,075</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Category</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.019</td><td class="line1right bordered">0.114</td><td class="line1right bordered">2.4</td><td class="line1right bordered">2,055</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.019</td><td class="line2right bordered">0.114</td><td class="line2right bordered">2.4</td><td class="line2right bordered">2,055</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Product</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.49</td><td class="line1right bordered">300.1</td><td class="line1right bordered">2,049</td><td class="line1right bordered">1</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.49</td><td class="line2right bordered">300.1</td><td class="line2right bordered">2,049</td><td class="line2right bordered">1</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Item</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.073</td><td class="line1right bordered">0.413</td><td class="line1right bordered">3.52</td><td class="line1right bordered">2,041</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.073</td><td class="line2right bordered">0.413</td><td class="line2right bordered">3.52</td><td class="line2right bordered">2,041</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToItem</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.244</td><td class="line1right bordered">2.32</td><td class="line1right bordered">2,039</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.244</td><td class="line2right bordered">2.32</td><td class="line2right bordered">2,039</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToCategory</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.221</td><td class="line1right bordered">2.34</td><td class="line1right bordered">2,015</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.221</td><td class="line2right bordered">2.34</td><td class="line2right bordered">2,015</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMain</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.203</td><td class="line1right bordered">2.15</td><td class="line1right bordered">1,998</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.203</td><td class="line2right bordered">2.15</td><td class="line2right bordered">1,998</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">NextCategory</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.216</td><td class="line1right bordered">2.11</td><td class="line1right bordered">1,974</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.216</td><td class="line2right bordered">2.11</td><td class="line2right bordered">1,974</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">NextProduct</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.23</td><td class="line1right bordered">1.87</td><td class="line1right bordered">1,941</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.23</td><td class="line2right bordered">1.87</td><td class="line2right bordered">1,941</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">NextItem</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.074</td><td class="line1right bordered">0.399</td><td class="line1right bordered">2.78</td><td class="line1right bordered">1,922</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.399</td><td class="line2right bordered">2.78</td><td class="line2right bordered">1,922</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToNextITem</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.204</td><td class="line1right bordered">1.87</td><td class="line1right bordered">1,903</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.204</td><td class="line2right bordered">1.87</td><td class="line2right bordered">1,903</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToNextProduct</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.204</td><td class="line1right bordered">1.89</td><td class="line1right bordered">1,896</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.204</td><td class="line2right bordered">1.89</td><td class="line2right bordered">1,896</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToNextMain</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.227</td><td class="line1right bordered">2.1</td><td class="line1right bordered">1,881</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.227</td><td class="line2right bordered">2.1</td><td class="line2right bordered">1,881</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="JPetstore_multi_items">
+<div style="float:left" class="h1" id="statistics_summary_title">JPetstore_multi_items</div>
+<a href="#JPetstoreBrowse" class="navigation previous" title="JPetstoreBrowse"></a>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Avg</th><th width="10%">Max</th><th width="10%">Count</th><th width="10%">Err</th><th width="10%">% of Err</th><th width="10%">SLA Profile</th>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">JPetstore_multi_items</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.955</td><td class="line1right bordered">27.3</td><td class="line1right bordered">94.5</td><td class="line1right bordered">152</td><td class="line1right bordered">152</td><td class="line1right bordered">100</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">1.7</td><td class="line2right bordered">9.51</td><td class="line2right bordered">20.5</td><td class="line2right bordered">349</td><td class="line2right bordered">349</td><td class="line2right bordered">100</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Enter</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.127</td><td class="line1right bordered">0.722</td><td class="line1right bordered">2.83</td><td class="line1right bordered">501</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.127</td><td class="line2right bordered">0.722</td><td class="line2right bordered">2.83</td><td class="line2right bordered">501</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Home</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.111</td><td class="line1right bordered">0.74</td><td class="line1right bordered">3.03</td><td class="line1right bordered">497</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.111</td><td class="line2right bordered">0.74</td><td class="line2right bordered">3.03</td><td class="line2right bordered">497</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Login</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.355</td><td class="line1right bordered">2.32</td><td class="line1right bordered">488</td><td class="line1right bordered">411</td><td class="line1right bordered">84.2</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore...ssionid=53C7A21C99216C32B044D1C81417A958</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.313</td><td class="line2right bordered">2.32</td><td class="line2right bordered">497</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/signon.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0</td><td class="line1right bordered">0.042</td><td class="line1right bordered">0.798</td><td class="line1right bordered">488</td><td class="line1right bordered">411</td><td class="line1right bordered">84.2</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Category</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.02</td><td class="line2right bordered">0.151</td><td class="line2right bordered">1.89</td><td class="line2right bordered">486</td><td class="line2right bordered">411</td><td class="line2right bordered">84.6</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.02</td><td class="line1right bordered">0.151</td><td class="line1right bordered">1.89</td><td class="line1right bordered">486</td><td class="line1right bordered">411</td><td class="line1right bordered">84.6</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Product</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.021</td><td class="line2right bordered">0.21</td><td class="line2right bordered">0.794</td><td class="line2right bordered">475</td><td class="line2right bordered">403</td><td class="line2right bordered">84.8</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.021</td><td class="line1right bordered">0.21</td><td class="line1right bordered">0.794</td><td class="line1right bordered">475</td><td class="line1right bordered">403</td><td class="line1right bordered">84.8</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Item</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.405</td><td class="line2right bordered">2.06</td><td class="line2right bordered">471</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.074</td><td class="line1right bordered">0.405</td><td class="line1right bordered">2.06</td><td class="line1right bordered">471</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">AddToCart</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.075</td><td class="line2right bordered">0.467</td><td class="line2right bordered">3.64</td><td class="line2right bordered">471</td><td class="line2right bordered">403</td><td class="line2right bordered">85.6</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.075</td><td class="line1right bordered">0.467</td><td class="line1right bordered">3.64</td><td class="line1right bordered">471</td><td class="line1right bordered">403</td><td class="line1right bordered">85.6</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMain</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.018</td><td class="line2right bordered">0.108</td><td class="line2right bordered">1.12</td><td class="line2right bordered">466</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.018</td><td class="line1right bordered">0.108</td><td class="line1right bordered">1.12</td><td class="line1right bordered">466</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Product2</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.02</td><td class="line2right bordered">0.128</td><td class="line2right bordered">1.9</td><td class="line2right bordered">462</td><td class="line2right bordered">462</td><td class="line2right bordered">100</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.02</td><td class="line1right bordered">0.128</td><td class="line1right bordered">1.9</td><td class="line1right bordered">462</td><td class="line1right bordered">462</td><td class="line1right bordered">100</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Item2</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.428</td><td class="line2right bordered">2.47</td><td class="line2right bordered">462</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.074</td><td class="line1right bordered">0.428</td><td class="line1right bordered">2.47</td><td class="line1right bordered">462</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">AddToCart2</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.22</td><td class="line2right bordered">1.11</td><td class="line2right bordered">456</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.22</td><td class="line1right bordered">1.11</td><td class="line1right bordered">456</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMAin2</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.191</td><td class="line2right bordered">0.477</td><td class="line2right bordered">451</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.191</td><td class="line1right bordered">0.477</td><td class="line1right bordered">451</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Category3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.213</td><td class="line2right bordered">1.09</td><td class="line2right bordered">445</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.213</td><td class="line1right bordered">1.09</td><td class="line1right bordered">445</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Product3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.207</td><td class="line2right bordered">0.962</td><td class="line2right bordered">444</td><td class="line2right bordered">379</td><td class="line2right bordered">85.4</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.207</td><td class="line1right bordered">0.962</td><td class="line1right bordered">444</td><td class="line1right bordered">379</td><td class="line1right bordered">85.4</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Item3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.4</td><td class="line2right bordered">1.58</td><td class="line2right bordered">444</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.074</td><td class="line1right bordered">0.4</td><td class="line1right bordered">1.58</td><td class="line1right bordered">444</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">AddToCart3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.194</td><td class="line2right bordered">0.57</td><td class="line2right bordered">439</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.194</td><td class="line1right bordered">0.57</td><td class="line1right bordered">439</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">ProceedToCheckOut</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.073</td><td class="line2right bordered">0.463</td><td class="line2right bordered">3.07</td><td class="line2right bordered">435</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/checkout.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.073</td><td class="line1right bordered">0.463</td><td class="line1right bordered">3.07</td><td class="line1right bordered">435</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToCart</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.224</td><td class="line2right bordered">2.1</td><td class="line2right bordered">428</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.224</td><td class="line1right bordered">2.1</td><td class="line1right bordered">428</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">RemoveItem</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.225</td><td class="line2right bordered">1.39</td><td class="line2right bordered">426</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/removeItemFromCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.225</td><td class="line1right bordered">1.39</td><td class="line1right bordered">426</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMain3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.207</td><td class="line2right bordered">1.2</td><td class="line2right bordered">413</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.207</td><td class="line1right bordered">1.2</td><td class="line1right bordered">413</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Category4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.204</td><td class="line2right bordered">1.04</td><td class="line2right bordered">411</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.204</td><td class="line1right bordered">1.04</td><td class="line1right bordered">411</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMAin4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.036</td><td class="line2right bordered">0.226</td><td class="line2right bordered">1.99</td><td class="line2right bordered">405</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.226</td><td class="line1right bordered">1.99</td><td class="line1right bordered">405</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Category5</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.227</td><td class="line2right bordered">2.28</td><td class="line2right bordered">397</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.227</td><td class="line1right bordered">2.28</td><td class="line1right bordered">397</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">Item4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.215</td><td class="line2right bordered">2</td><td class="line2right bordered">391</td><td class="line2right bordered">391</td><td class="line2right bordered">100</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.215</td><td class="line1right bordered">2</td><td class="line1right bordered">391</td><td class="line1right bordered">391</td><td class="line1right bordered">100</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToCategory4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.206</td><td class="line2right bordered">1.11</td><td class="line2right bordered">390</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.206</td><td class="line1right bordered">1.11</td><td class="line1right bordered">390</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">BackToMain4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.074</td><td class="line2right bordered">0.449</td><td class="line2right bordered">2.7</td><td class="line2right bordered">381</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/index.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.036</td><td class="line1right bordered">0.208</td><td class="line1right bordered">2.47</td><td class="line1right bordered">386</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewCategory.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.241</td><td class="line2right bordered">2</td><td class="line2right bordered">381</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Product4</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.259</td><td class="line1right bordered">2.21</td><td class="line1right bordered">380</td><td class="line1right bordered">315</td><td class="line1right bordered">82.9</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewProduct.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.259</td><td class="line2right bordered">2.21</td><td class="line2right bordered">380</td><td class="line2right bordered">315</td><td class="line2right bordered">82.9</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Item5</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.075</td><td class="line1right bordered">0.432</td><td class="line1right bordered">2.57</td><td class="line1right bordered">374</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/viewItem.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.075</td><td class="line2right bordered">0.432</td><td class="line2right bordered">2.57</td><td class="line2right bordered">374</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">AddToCart4</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.038</td><td class="line1right bordered">0.233</td><td class="line1right bordered">1.99</td><td class="line1right bordered">371</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/addItemToCart.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.038</td><td class="line2right bordered">0.233</td><td class="line2right bordered">1.99</td><td class="line2right bordered">371</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">ProceedToCheckout</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.198</td><td class="line1right bordered">0.983</td><td class="line1right bordered">363</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/checkout.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.198</td><td class="line2right bordered">0.983</td><td class="line2right bordered">363</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Continue</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.196</td><td class="line1right bordered">0.86</td><td class="line1right bordered">359</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrderForm.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.196</td><td class="line2right bordered">0.86</td><td class="line2right bordered">359</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">SubmitPayment</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.197</td><td class="line1right bordered">0.656</td><td class="line1right bordered">356</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrder.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.197</td><td class="line2right bordered">0.656</td><td class="line2right bordered">356</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">Confirm</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0.037</td><td class="line1right bordered">0.218</td><td class="line1right bordered">1.74</td><td class="line1right bordered">349</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/jpetstore/shop/newOrder.shtml</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0.037</td><td class="line2right bordered">0.218</td><td class="line2right bordered">1.74</td><td class="line2right bordered">349</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"><img src="images/severity_high.png" alt="images/severity_high.png" style="vertical-align: middle;"> JPetStore</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

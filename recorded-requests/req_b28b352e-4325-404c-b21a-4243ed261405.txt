@@ -1,0 +1,20 @@
+POST https://ushahidi.apps.neotys.com:443/rb_bf42640bbz?type=js3&sn=v_4_srv_7_sn_5FE20C78FB6EA58496B6F234534B7B8D_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0&svrid=7&flavor=post&vi=KBSGAFIMHTMACVMRWCIARKPSPMSPCRCK-0&modifiedSince=1685011219554&rf=https%3A%2F%2Fushahidi.apps.neotys.com%2F&bp=3&app=ea7c4b59f27d43eb&crc=3145705110&en=cnyf1t4q&end=1 HTTP/1.1
+Host: ushahidi.apps.neotys.com
+Connection: keep-alive
+Content-Length: 1673
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://ushahidi.apps.neotys.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://ushahidi.apps.neotys.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: apt.uid=AP-OLHBIWKH7BEB-2-1684346340935-79997389.0.2.ff27edae-2fd8-4117-adf0-d21157e28b69; rxVisitor=1685623026800J1OJQ8KK7F7GQ0KA39G5E3GRAL0B7SF1; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTY4NTk4NzY0OSwiZXhwIjoxNjg2MDc0MDQ5LCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNWFmNDUzZDc2ZTU1YWIwMDAxNGE0NmViIn0.gJkUTUxopfGeSPD_iiFWtwFtK46bEQ_swe1uu2aaszD_sDbTfV0MVpxrDwn19P3lqFV_vH9H5yR51L9hxI-R5WOnWF9WX7cpYo4Vh9Ebla_01ntJ72zJSkOXMr-wFJtbmoOcMqPmCL5wm_Iga1gYv2gcawpTCVqd7NRVJ_CiF1B5hlwWNlMgjr140IfHjiYxmY55wWLJK_E_WcIcH72FB-QtPne8b_LvpkwkKhkvteRtyAP3MUi0rxhZ77S3ZvcBP07hCdFLQTXNvS4c08bSo3BZFL0234-PBlpc2Pc_ZHozix0zHGPx1BohuDdje4R2i92gho9OwSc6MDLs_fuaOw; ushahidi=jtdcqm46m4islk843o2ns265h6; dtCookie=v_4_srv_7_sn_5FE20C78FB6EA58496B6F234534B7B8D_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtLatC=203; dtSa=-; dtPC=7$598863560_844h-vKBSGAFIMHTMACVMRWCIARKPSPMSPCRCK-0e0; rxvt=1686000667795|1685998863565
+
+$a=1%7C1%7C_load_%7C_load_%7C-%7C1685998862689%7C1685998867584%7Cdn%7C587%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%2C2%7C7%7C_event_%7C1685998862689%7C_vc_%7CV%7C4895%5Epc%7CVCD%7C1094%7CVCDS%7C10%7CVCS%7C4969%7CVCO%7C5975%7CVCI%7C0%7CVE%7C810%5Ep734%5Ep1386%5Eps%5Es%23OpenLayers_Control_Attribution_5%3Ea%3Afirst-child%7CS%7C1974%2C2%7C8%7C_event_%7C1685998862689%7C_wv_%7ClcpE%7CIMG%7ClcpSel%7Cimg.olTileImage%3Anth-of-type%281%29%7ClcpS%7C65536%7ClcpT%7C3321%7ClcpU%7Chttps%3A%2F%2Fc.tile.openstreetmap.org%2F12%2F2111%2F1500.png%7ClcpLT%7C3321%7Cfcp%7C1951%7Cfp%7C1951%7Ccls%7C0.0031%7Clt%7C945%2C2%7C5%7Cx%7Cxhr%7Cx%7C1685998864857%7C1685998867584%7Cdn%7C587%7Cxu%7C%2Fjson%2Fcluster%3Fs%3D1617235200%26e%3D1688169599%26z%3D12%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1685998864867e0f0g0h0i0j0k3l2570m2693u152373v152073w152073X200T-1z11I1M2005468006V0%7Cxcs%7C2704%7Cxce%7C2726%2C2%7C6%7C_onload_%7C_load_%7C-%7C1685998866556%7C1685998866558%7Cdn%7C577%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%2C1%7C9%7C_event_%7C1685998862689%7C_view_%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0$rId=RID_2418$rpId=665499727$domR=1685998866553$tvn=%2F$tvt=1685998862689$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1647$h=930$sw=1920$sh=1080$nt=a0b1685998862689e9f9g9h12i405j100k405l546m621o1919p1919q2043r3864s3867t3869u29814v29514w29514X200M665499727V0$ni=4g|9.2$sr=1$url=https%3A%2F%2Fushahidi.apps.neotys.com%2F$title=Neotys%20Ushahidi$latC=203$app=ea7c4b59f27d43eb$vi=KBSGAFIMHTMACVMRWCIARKPSPMSPCRCK-0$fId=598863560_844$v=10265230425083909$vID=1685623026800J1OJQ8KK7F7GQ0KA39G5E3GRAL0B7SF1$time=1685998868771

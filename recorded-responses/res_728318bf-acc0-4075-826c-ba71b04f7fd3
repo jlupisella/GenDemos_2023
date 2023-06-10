@@ -1,0 +1,25 @@
+[ {
+  "id" : "id",
+  "name" : "name",
+  "parameters" : {
+    "K8S_API_END_POINT" : "https://example/api",
+    "K8S_TOKEN" : "azerty123456789azerty",
+    "K8S_NAMESPACE" : "kubernetes-namespace",
+    "K8S_LABELS" : "",
+    "K8S_ANNOTATIONS" : "",
+    "K8S_NODE_SELECTORS" : ""
+  },
+  "type" : "AWS"
+}, {
+  "id" : "id",
+  "name" : "name",
+  "parameters" : {
+    "K8S_API_END_POINT" : "https://example/api",
+    "K8S_TOKEN" : "azerty123456789azerty",
+    "K8S_NAMESPACE" : "kubernetes-namespace",
+    "K8S_LABELS" : "",
+    "K8S_ANNOTATIONS" : "",
+    "K8S_NODE_SELECTORS" : ""
+  },
+  "type" : "AWS"
+} ]

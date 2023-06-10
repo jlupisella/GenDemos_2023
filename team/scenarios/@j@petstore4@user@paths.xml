@@ -10,7 +10,7 @@
                 iterationNumber="1" maxUserNumber="0" userIncrement="40"/>
         </volume-policy-entry>
         <start-stop-policy-entry start-delay="0" start-type="0"
-            stop-delay="60000" stop-type="0"/>
+            stop-delay="60000" stop-type="2"/>
         <runtime-policy continueOnError="true" thinktimePolicy="0"
             thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
         <!--****** POPULATION LG HOSTS ******-->
@@ -45,6 +45,32 @@
                 connectionName="NeoLoad" dashed="false"
                 monitorName="throughput" monitoredHostName="NeoLoad"
                 scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;all pages> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="d78c18da-71b4-3805-92a4-d74fb7a5ab2e"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="JPetstoreBrowse" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="JPetstore" zoneName=""/>
         </chart-description>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->

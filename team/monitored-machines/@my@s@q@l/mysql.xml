@@ -1,12 +1,13 @@
 <connection-mysql custom-url="" database="" interval="5000"
     login="monitor" name="mysql" password=""
-    server-address="54.196.252.100" server-port="3306"
+    server-address="18.234.230.207" server-port="3306"
     uid="b38b1694-e839-48d9-a887-53c8abcabf1f" use-custom-url="false">
     <monitor-category name="Connections" short-display-name="Connections">
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
             counterID="0" format="NUMBER"
             name="Connections/ threads connected" sampling="0"
-            short-display-name="threads connected" unit="">
+            short-display-name="threads connected"
+            threshold="b6c7b3fe-7349-408c-8906-e00e0545a70e" unit="">
             <description>Number of currently open connections</description>
         </monitor-mysql>
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="1"
@@ -303,7 +304,7 @@
     </threshold>
     <threshold enabled="true" uid="38dbfe3f-d3ec-4e43-b096-2c3f954f2e09">
         <threshold-condition durationKind="SECONDS" durationNumber="30"
-            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="5.0">
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="5.0">
             <threshold-comment language="en">
                 <threshold-content>High number of failed connections</threshold-content>
             </threshold-comment>
@@ -393,5 +394,9 @@
                 <threshold-content>Nombre élevé de 'merges passes' faites par l'algorithme de tri</threshold-content>
             </threshold-comment>
         </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="b6c7b3fe-7349-408c-8906-e00e0545a70e">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="10.0"/>
     </threshold>
 </connection-mysql>

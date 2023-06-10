@@ -1,0 +1,23 @@
+{
+  "projectId" : "5e5fc0102cc4f82e5d9e18d4",
+  "projectName" : "projectName",
+  "projectVersion" : "projectVersion",
+  "asCodeFiles" : [ {
+    "path" : "path",
+    "includes" : [ "includes", "includes" ]
+  }, {
+    "path" : "path",
+    "includes" : [ "includes", "includes" ]
+  } ],
+  "scenarios" : [ {
+    "scenarioName" : "scenarioName",
+    "scenarioDuration" : 3,
+    "scenarioVUs" : 2,
+    "scenarioSource" : "scenarioSource"
+  }, {
+    "scenarioName" : "scenarioName",
+    "scenarioDuration" : 3,
+    "scenarioVUs" : 2,
+    "scenarioSource" : "scenarioSource"
+  } ]
+}

@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewItem.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/71461a40-4d41-451c-b178-adf990b41e25.zip"
-    slaProfileEnabled="true" slaProfileName="JPetStore" thinkTime="6613"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="71461a40-4d41-451c-b178-adf990b41e25">
+    slaProfileEnabled="false" slaProfileName="JPetStore"
+    thinkTime="6613" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="71461a40-4d41-451c-b178-adf990b41e25">
     <embedded-action>be17b9f0-c46b-4cfa-a7ee-3c2add9e0fc9</embedded-action>
     <embedded-action>ed40b5a1-f53e-4695-9d0b-26632ea809b4</embedded-action>
 </http-page>
@@ -19,7 +19,7 @@
     recordedResponseCode="200"
     refererUid="9f441bbf-8fe2-47df-b110-0dcd128cda66"
     responseSize="3880" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetStore"
+    slaProfileEnabled="false" slaProfileName="JPetStore"
     uid="be17b9f0-c46b-4cfa-a7ee-3c2add9e0fc9" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_3b3fe231-e3e0-40f8-942b-51e26d9c7912.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3b3fe231-e3e0-40f8-942b-51e26d9c7912.txt</requestContentFileDescription>
@@ -56,7 +56,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/bird2.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/71461a40-4d41-451c-b178-adf990b41e25.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetStore"
     uid="ed40b5a1-f53e-4695-9d0b-26632ea809b4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_024b8cf7-7a9e-4684-94f4-a7c7ba428ea0.gif</responsePageFileDescription>

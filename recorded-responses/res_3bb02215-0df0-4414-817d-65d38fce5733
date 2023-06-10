@@ -1,0 +1,79 @@
+{
+  "displayTestResultsCount" : 10,
+  "failOnObjective" : true,
+  "metrics" : [ {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  }, {
+    "color" : "#d2b067",
+    "elementPath" : "scenario1/Actions/myTransaction",
+    "isDisplayed" : true,
+    "isObjective" : true,
+    "objectiveValue" : 0.5,
+    "statistic" : "Perc 99"
+  } ],
+  "objectiveTolerance" : 2,
+  "objectiveType" : "MANUAL",
+  "referenceTestResultId" : "76890fbe-d2f2-4e82-a054-a1a2d584da4b",
+  "referentialObjectiveTolerance" : 10
+}

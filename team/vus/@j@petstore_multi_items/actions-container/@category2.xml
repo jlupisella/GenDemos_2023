@@ -1,7 +1,5 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Category2" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetStore"
-    uid="087a3490-57b9-43e7-9545-f6df9f62c764" weightsEnabled="false">
-    <weighted-embedded-action uid="8ce1bdf3-bcab-4b2c-a910-c887f6bc27b6"/>
-</basic-logical-action-container>
+    uid="087a3490-57b9-43e7-9545-f6df9f62c764" weightsEnabled="false"/>

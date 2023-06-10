@@ -1,0 +1,12 @@
+{
+  "deletionFilter" : {
+    "resultNamePattern" : "toRemove.*"
+  },
+  "deletionSetting" : {
+    "retentionCount" : 5
+  },
+  "id" : "id",
+  "lastModifiedDate" : 8,
+  "lastModifiedUserName" : "lastModifiedUserName",
+  "workspaceId" : "workspaceId"
+}

@@ -1,0 +1,19 @@
+{
+  "id" : "id",
+  "name" : "name",
+  "description" : "description",
+  "author" : "author",
+  "terminationReason" : "POLICY",
+  "lgCount" : 7,
+  "project" : "project",
+  "scenario" : "scenario",
+  "status" : "INIT",
+  "qualityStatus" : "PASSED",
+  "startDate" : 1,
+  "endDate" : 4,
+  "duration" : 5,
+  "testId" : "5ed5350f-9f2f-4e2a-9acb-cdbcee874256",
+  "externalUrl" : "https://dev.azure.com/myorg/myproject/_build?definitionId=123",
+  "externalUrlLabel" : "AzureDevOps#123",
+  "isLocked" : true
+}

@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SubmitReportform" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f7a4ed08-4d6f-4224-86c3-333d1f402f21" weightsEnabled="false">
+    <weighted-embedded-action uid="b1787fd8-bd69-458b-a152-3641453f7275"/>
+    <weighted-embedded-action uid="e8eca6f8-894a-4e0f-bad3-e9d4dc87adbb"/>
+    <weighted-embedded-action uid="b02fe5a9-22c3-4187-a1d1-aef6f66090a3"/>
+    <weighted-embedded-action uid="10ae4fa0-4e94-4b78-bfa1-7ce0e2460d70"/>
+    <weighted-embedded-action uid="6542a542-e12c-4399-ab4a-b31b8832a3e1"/>
+    <weighted-embedded-action uid="0d1f4e35-edd7-4ac9-b1e0-b4ca9aa31acd"/>
+    <weighted-embedded-action uid="e7292225-9096-4d2d-8d01-dc7280bee6c3"/>
+    <weighted-embedded-action uid="e89a7942-170f-467a-99ff-6ce3ceffdf1a"/>
+</basic-logical-action-container>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Continue" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="JPetStore_1"
+    uid="eba84a26-20ae-4628-be88-454775681047" weightsEnabled="false">
+    <weighted-embedded-action uid="f184819b-4f6b-4d82-91bc-9f0c6e846653"/>
+</basic-logical-action-container>

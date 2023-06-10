@@ -1,0 +1,37 @@
+[ {
+  "id" : "5ed5350f-9f2f-4e2a-9acb-cdbcee874256",
+  "name" : "New Test 1",
+  "description" : "My description",
+  "userModifierName" : "userModifierName",
+  "creationDate" : 1582550441,
+  "lastUpdateDate" : 1582550442,
+  "scenarioName" : "scenario1",
+  "controllerZoneId" : "defaultzone",
+  "projectId" : "5e5fc0102cc4f82e5d9e18d4",
+  "projectName" : "Sample Project",
+  "lgZoneIds" : {
+    "defaultzone" : 10,
+    "ZoneId" : 5
+  },
+  "lastRunDate" : 1582550442,
+  "nextRunId" : 5.637376656633329,
+  "testResultNamingPattern" : "#${runID}"
+}, {
+  "id" : "5ed5350f-9f2f-4e2a-9acb-cdbcee874256",
+  "name" : "New Test 1",
+  "description" : "My description",
+  "userModifierName" : "userModifierName",
+  "creationDate" : 1582550441,
+  "lastUpdateDate" : 1582550442,
+  "scenarioName" : "scenario1",
+  "controllerZoneId" : "defaultzone",
+  "projectId" : "5e5fc0102cc4f82e5d9e18d4",
+  "projectName" : "Sample Project",
+  "lgZoneIds" : {
+    "defaultzone" : 10,
+    "ZoneId" : 5
+  },
+  "lastRunDate" : 1582550442,
+  "nextRunId" : 5.637376656633329,
+  "testResultNamingPattern" : "#${runID}"
+} ]

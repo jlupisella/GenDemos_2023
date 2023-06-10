@@ -9,15 +9,15 @@
     <actions-container clearUserIterationDataMode="AUTO"
         element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-        slaProfileEnabled="true" slaProfileName="JPetStore" weightsEnabled="false">
+        slaProfileEnabled="false" slaProfileName="JPetStore" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
         <weighted-embedded-action uid="a9fd3a16-ff78-4968-9edc-af032de8969f"/>
         <weighted-embedded-action uid="a775e9ad-5cde-4ae8-ab89-3838a0e8b660"/>
         <weighted-embedded-action uid="a49ac830-f1ce-4ff0-8de2-eb2b3d558b24"/>
-        <weighted-embedded-action uid="f35def51-f9f2-485a-aa83-d4d86f7e00b6"/>
+        <weighted-embedded-action uid="1a376dfe-611b-4119-ad54-a8df86b945e8"/>
         <weighted-embedded-action uid="b3847e70-12ac-4022-8034-186bc4029146"/>
         <weighted-embedded-action uid="047c6a6b-a2b3-474e-90ae-6b22f45abac6"/>
-        <weighted-embedded-action uid="d213c26a-83d1-439c-a7b6-c3c9421bb453"/>
+        <weighted-embedded-action uid="359a9109-201d-455c-99e7-36b9352d4d52"/>
         <weighted-embedded-action uid="9d1083e9-78c6-4c38-8814-efcce9953c3a"/>
         <weighted-embedded-action uid="087a3490-57b9-43e7-9545-f6df9f62c764"/>
         <weighted-embedded-action uid="7275ad94-79a9-417a-8e80-b00abe2f57d8"/>

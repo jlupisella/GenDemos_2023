@@ -1,0 +1,25 @@
+[ {
+  "kpi" : "avg-request-resp-time",
+  "status" : "PASSED",
+  "value" : 4.372688,
+  "warningThreshold" : {
+    "operator" : ">=",
+    "values" : [ 5.791189, 5.791189 ]
+  },
+  "failedThreshold" : {
+    "operator" : ">=",
+    "values" : [ 5.974942, 5.974942 ]
+  }
+}, {
+  "kpi" : "avg-request-resp-time",
+  "status" : "PASSED",
+  "value" : 4.372688,
+  "warningThreshold" : {
+    "operator" : ">=",
+    "values" : [ 5.791189, 5.791189 ]
+  },
+  "failedThreshold" : {
+    "operator" : ">=",
+    "values" : [ 5.974942, 5.974942 ]
+  }
+} ]

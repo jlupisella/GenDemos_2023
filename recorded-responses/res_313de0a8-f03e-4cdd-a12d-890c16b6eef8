@@ -1,0 +1,26 @@
+{
+  "allUsersEnabled" : true,
+  "description" : "Workspace description",
+  "id" : "5e3acde2e860a132744ca916",
+  "lastChange" : {
+    "lastAction" : "CREATE",
+    "lastUpdateDate" : 1582550442
+  },
+  "members" : [ {
+    "firstName" : "firstName",
+    "lastName" : "lastName",
+    "login" : "login",
+    "userSource" : "SAAS"
+  }, {
+    "firstName" : "firstName",
+    "lastName" : "lastName",
+    "login" : "login",
+    "userSource" : "SAAS"
+  } ],
+  "name" : "Default Workspace",
+  "vuQuota" : {
+    "sap" : 4,
+    "unlimited" : true,
+    "web" : 8
+  }
+}

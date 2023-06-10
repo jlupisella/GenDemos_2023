@@ -1,0 +1,1220 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="leftnavigation">
+<div class="divHeader">NeoLoad Test Report</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Results summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Statistics Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Hot spots</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Errors</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alerts</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">General statistics</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Transaction statistics</a>
+</div>
+<div class="item">
+<a href="./settings.html">Execution context</a>
+</div>
+<div class="item">
+<a href="./servers.html">Servers</a>
+</div>
+<div class="item">
+<a href="./cloud.html">Cloud</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">User Paths</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Media Contents</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Push messages</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Monitors</a>
+</div>
+<div class="item">
+<a href="./alerts.html">Alerts</a>
+</div>
+<div class="item">
+<a href="./sla-profiles-details.html">SLA per SLA Profile</a>
+</div>
+<div class="item">
+<a href="./sla-details-results-per-vu.html">SLA per User Path</a>
+</div>
+<div class="item">
+<a href="./scenario_JPetstore4UserPaths.html">Scenario</a>
+</div>
+<div class="title">Main graphs</div>
+<div class="item">
+<a href="./Main graphs_pages.average.html">Average page response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_requests.average.html">Average request response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_transactions.average.html">Average response time (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Main graphs_hits.html">Requests per second</a>
+</div>
+<div class="item">
+<a href="./Main graphs_errors.html">Errors</a>
+</div>
+<div class="item">
+<a href="./Main graphs_throughput.html">Throughput</a>
+</div>
+<div class="item">
+<a href="./Main graphs_pages.average.vu.html">Response time against load</a>
+</div>
+<div class="item">
+<a href="./Main graphs_percentile.html">Distribution of Transaction Durations</a>
+</div>
+<div class="item">
+<a href="./Main graphs_alerts.html">Top 10 First Alerts</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_tricentis.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Monitors</div>
+<p class="mediumtitle">Controller</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">295.5</td><td class="line2right bordered">543</td><td class="line2right bordered">290</td><td class="line2right bordered">295.7</td><td class="line2right bordered">153.6</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">2.18</td><td class="line1right bordered">9.85</td><td class="line1right bordered">1.88</td><td class="line1right bordered">2.07</td><td class="line1right bordered">1.63</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Alerts</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Critical Alerts</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Warning Alerts</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/CPU Load</span></td><td class="line1right bordered">7</td><td class="line1right bordered">20</td><td class="line1right bordered">63</td><td class="line1right bordered">19</td><td class="line1right bordered">19.8</td><td class="line1right bordered">5.71</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/JVM Memory Used</span></td><td class="line2right bordered">3</td><td class="line2right bordered">6.44</td><td class="line2right bordered">10</td><td class="line2right bordered">6</td><td class="line2right bordered">6.38</td><td class="line2right bordered">1.82</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/OS Memory Used</span></td><td class="line1right bordered">45</td><td class="line1right bordered">47</td><td class="line1right bordered">50</td><td class="line1right bordered">47</td><td class="line1right bordered">47</td><td class="line1right bordered">1.28</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Thread Count</span></td><td class="line2right bordered">669</td><td class="line2right bordered">715.8</td><td class="line2right bordered">742</td><td class="line2right bordered">718</td><td class="line2right bordered">716.4</td><td class="line2right bordered">5.14</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Connected</span></td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Total Disconnections</span></td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Total Reconnections</span></td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/Segments sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/Segments retransmitted/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan1 (Intel(R) Wi-Fi 6 AX201 160MHz)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan1 (Intel(R) Wi-Fi 6 AX201 160MHz)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan0 (Microsoft Wi-Fi Direct Virtual Adapter)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan0 (Microsoft Wi-Fi Direct Virtual Adapter)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth2 (Cisco AnyConnect Secure Mobility Client V... for Windows x64)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth2 (Cisco AnyConnect Secure Mobility Client V...pter for Windows x64)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth1 (Bluetooth Device (Personal Area Network))/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth1 (Bluetooth Device (Personal Area Network))/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/net6 (TAP-Windows Adapter V9)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/net6 (TAP-Windows Adapter V9)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth10 (Dell GigabitEthernet)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth10 (Dell GigabitEthernet)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/NeoLoad Web/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/NeoLoad Web/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.091</td><td class="line1right bordered">0.389</td><td class="line1right bordered">0.073</td><td class="line1right bordered">0.084</td><td class="line1right bordered">0.058</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">8.46</td><td class="line2right bordered">16</td><td class="line2right bordered">8</td><td class="line2right bordered">8.43</td><td class="line2right bordered">4.25</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore_4UserPaths/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">8.46</td><td class="line1right bordered">16</td><td class="line1right bordered">8</td><td class="line1right bordered">8.43</td><td class="line1right bordered">4.25</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">3.06</td><td class="line2right bordered">6</td><td class="line2right bordered">3</td><td class="line2right bordered">3.01</td><td class="line2right bordered">1.76</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">2.34</td><td class="line1right bordered">4</td><td class="line1right bordered">2</td><td class="line1right bordered">2.38</td><td class="line1right bordered">1.22</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">3.06</td><td class="line2right bordered">6</td><td class="line2right bordered">3</td><td class="line2right bordered">3.04</td><td class="line2right bordered">1.38</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Asia-Pacific Australia (Sydney 1)/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">64.9</td><td class="line1right bordered">120</td><td class="line1right bordered">65</td><td class="line1right bordered">64.8</td><td class="line1right bordered">34.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Asia-Pacific Australia (Sydney 1)/JPetStore_4UserPaths/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">64.9</td><td class="line2right bordered">120</td><td class="line2right bordered">65</td><td class="line2right bordered">64.8</td><td class="line2right bordered">34.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Asia-Pacific Australia (Sydney 1)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">25.1</td><td class="line1right bordered">46</td><td class="line1right bordered">25</td><td class="line1right bordered">25.2</td><td class="line1right bordered">13</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Asia-Pacific Australia (Sydney 1)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">18</td><td class="line2right bordered">33</td><td class="line2right bordered">18</td><td class="line2right bordered">18</td><td class="line2right bordered">10.15</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Asia-Pacific Australia (Sydney 1)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">21.8</td><td class="line1right bordered">41</td><td class="line1right bordered">22</td><td class="line1right bordered">21.6</td><td class="line1right bordered">11.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Europe Ireland (Dublin 1)/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">56.5</td><td class="line2right bordered">105</td><td class="line2right bordered">56</td><td class="line2right bordered">56.6</td><td class="line2right bordered">30.1</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Europe Ireland (Dublin 1)/JPetStore_4UserPaths/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">56.5</td><td class="line1right bordered">105</td><td class="line1right bordered">56</td><td class="line1right bordered">56.6</td><td class="line1right bordered">30.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Europe Ireland (Dublin 1)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">21.5</td><td class="line2right bordered">41</td><td class="line2right bordered">22</td><td class="line2right bordered">21.6</td><td class="line2right bordered">11.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Europe Ireland (Dublin 1)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">15.7</td><td class="line1right bordered">29</td><td class="line1right bordered">15</td><td class="line1right bordered">15.7</td><td class="line1right bordered">8.52</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Europe Ireland (Dublin 1)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">19.3</td><td class="line2right bordered">35</td><td class="line2right bordered">19</td><td class="line2right bordered">19.3</td><td class="line2right bordered">10.04</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Europe Netherlands (Amsterdam 2)/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">49.1</td><td class="line1right bordered">91</td><td class="line1right bordered">48</td><td class="line1right bordered">49.1</td><td class="line1right bordered">25.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Europe Netherlands (Amsterdam 2)/JPetStore_4UserPaths/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">49.1</td><td class="line2right bordered">91</td><td class="line2right bordered">48</td><td class="line2right bordered">49.1</td><td class="line2right bordered">25.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Europe Netherlands (Amsterdam 2)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">18.8</td><td class="line1right bordered">35</td><td class="line1right bordered">19</td><td class="line1right bordered">18.8</td><td class="line1right bordered">10.08</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Europe Netherlands (Amsterdam 2)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">14</td><td class="line2right bordered">25</td><td class="line2right bordered">13</td><td class="line2right bordered">14</td><td class="line2right bordered">6.9</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Europe Netherlands (Amsterdam 2)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">16.3</td><td class="line1right bordered">31</td><td class="line1right bordered">16</td><td class="line1right bordered">16.3</td><td class="line1right bordered">8.76</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/North-America Canada (Toronto 2)/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">41.2</td><td class="line2right bordered">75</td><td class="line2right bordered">40</td><td class="line2right bordered">41.3</td><td class="line2right bordered">21.1</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/North-America Canada (Toronto 2)/JPetStore_4UserPaths/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">41.2</td><td class="line1right bordered">75</td><td class="line1right bordered">40</td><td class="line1right bordered">41.3</td><td class="line1right bordered">21.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/North-America Canada (Toronto 2)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">15.5</td><td class="line2right bordered">27</td><td class="line2right bordered">15</td><td class="line2right bordered">15.5</td><td class="line2right bordered">7.75</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/North-America Canada (Toronto 2)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">11.8</td><td class="line1right bordered">23</td><td class="line1right bordered">12</td><td class="line1right bordered">11.8</td><td class="line1right bordered">5.92</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/North-America Canada (Toronto 2)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">13.9</td><td class="line2right bordered">25</td><td class="line2right bordered">13</td><td class="line2right bordered">14</td><td class="line2right bordered">7.48</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/South-America Brazil (Sao Paulo 1)/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">32.9</td><td class="line1right bordered">60</td><td class="line1right bordered">33</td><td class="line1right bordered">33</td><td class="line1right bordered">16.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/South-America Brazil (Sao Paulo 1)/JPetStore_4UserPaths/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">32.9</td><td class="line2right bordered">60</td><td class="line2right bordered">33</td><td class="line2right bordered">33</td><td class="line2right bordered">16.9</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/South-America Brazil (Sao Paulo 1)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">12.7</td><td class="line1right bordered">23</td><td class="line1right bordered">12</td><td class="line1right bordered">12.7</td><td class="line1right bordered">6.29</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/South-America Brazil (Sao Paulo 1)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">9.08</td><td class="line2right bordered">17</td><td class="line2right bordered">9</td><td class="line2right bordered">9.06</td><td class="line2right bordered">4.81</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/South-America Brazil (Sao Paulo 1)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">11.1</td><td class="line1right bordered">20</td><td class="line1right bordered">12</td><td class="line1right bordered">11.2</td><td class="line1right bordered">5.88</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/USA West - California (Los Angeles 2)/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">16.8</td><td class="line2right bordered">31</td><td class="line2right bordered">16</td><td class="line2right bordered">16.8</td><td class="line2right bordered">8.45</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/USA West - California (Los Angeles 2)/JPetStore_4UserPaths/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">16.8</td><td class="line1right bordered">31</td><td class="line1right bordered">16</td><td class="line1right bordered">16.8</td><td class="line1right bordered">8.45</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/USA West - California (Los Angeles 2)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">6.56</td><td class="line2right bordered">12</td><td class="line2right bordered">6</td><td class="line2right bordered">6.55</td><td class="line2right bordered">3.47</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/USA West - California (Los Angeles 2)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">4.56</td><td class="line1right bordered">9</td><td class="line1right bordered">5</td><td class="line1right bordered">4.56</td><td class="line1right bordered">2.49</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/USA West - California (Los Angeles 2)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">5.7</td><td class="line2right bordered">10</td><td class="line2right bordered">5</td><td class="line2right bordered">5.7</td><td class="line2right bordered">2.69</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/USA West - Arizona (Phoenix)/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">25.1</td><td class="line1right bordered">45</td><td class="line1right bordered">24</td><td class="line1right bordered">25.1</td><td class="line1right bordered">12.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/USA West - Arizona (Phoenix)/JPetStore_4UserPaths/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">25.1</td><td class="line2right bordered">45</td><td class="line2right bordered">24</td><td class="line2right bordered">25.1</td><td class="line2right bordered">12.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/USA West - Arizona (Phoenix)/JPetStore_4UserPaths/JPetstoreBrowse/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">9.53</td><td class="line1right bordered">17</td><td class="line1right bordered">9</td><td class="line1right bordered">9.51</td><td class="line1right bordered">4.8</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/USA West - Arizona (Phoenix)/JPetStore_4UserPaths/JPetstore_multi_items/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">6.79</td><td class="line2right bordered">12</td><td class="line2right bordered">7</td><td class="line2right bordered">6.83</td><td class="line2right bordered">3.37</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/USA West - Arizona (Phoenix)/JPetStore_4UserPaths/JPetstore/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">8.76</td><td class="line1right bordered">16</td><td class="line1right bordered">8</td><td class="line1right bordered">8.79</td><td class="line1right bordered">4.62</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">Linux/linux<span class="mediumtitle-label"> monitored from </span>localhost</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/CPU User</span></td><td class="line2right bordered">0</td><td class="line2right bordered">2.41</td><td class="line2right bordered">8</td><td class="line2right bordered">2</td><td class="line2right bordered">2.3</td><td class="line2right bordered">1.21</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/CPU System</span></td><td class="line1right bordered">0</td><td class="line1right bordered">1.93</td><td class="line1right bordered">4</td><td class="line1right bordered">2</td><td class="line1right bordered">1.91</td><td class="line1right bordered">0.806</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/CPU Idle</span></td><td class="line2right bordered">87</td><td class="line2right bordered">95.5</td><td class="line2right bordered">99</td><td class="line2right bordered">96</td><td class="line2right bordered">95.6</td><td class="line2right bordered">1.79</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Interruptions count</span></td><td class="line1right bordered">60</td><td class="line1right bordered">1,997</td><td class="line1right bordered">4,030</td><td class="line1right bordered">2,004</td><td class="line1right bordered">1,987</td><td class="line1right bordered">856.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Context switch count</span></td><td class="line2right bordered">39</td><td class="line2right bordered">1,533</td><td class="line2right bordered">2,976</td><td class="line2right bordered">1,542</td><td class="line2right bordered">1,529</td><td class="line2right bordered">553.5</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Context switch count per CPU</span></td><td class="line1right bordered">19</td><td class="line1right bordered">766.1</td><td class="line1right bordered">1,488</td><td class="line1right bordered">771</td><td class="line1right bordered">764.3</td><td class="line1right bordered">276.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Process Runnable</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.112</td><td class="line2right bordered">4</td><td class="line2right bordered">0</td><td class="line2right bordered">0.035</td><td class="line2right bordered">0.428</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Process Runnable per CPU</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.021</td><td class="line1right bordered">2</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.157</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Process Sleeping</span></td><td class="line2right bordered">0</td><td class="line2right bordered">101.8</td><td class="line2right bordered">577</td><td class="line2right bordered">52</td><td class="line2right bordered">88.1</td><td class="line2right bordered">109.4</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Process Swapped</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Swap in</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/System/Swap out</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Memory Total</span></td><td class="line2right bordered">8,155,916</td><td class="line2right bordered">8,155,916</td><td class="line2right bordered">8,155,916</td><td class="line2right bordered">8,155,916</td><td class="line2right bordered">8,155,916</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Memory Used</span></td><td class="line1right bordered">2,090,708</td><td class="line1right bordered">2,163,106</td><td class="line1right bordered">2,374,900</td><td class="line1right bordered">2,143,310</td><td class="line1right bordered">2,159,446</td><td class="line1right bordered">63,400</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Memory Free</span></td><td class="line2right bordered">5,781,016</td><td class="line2right bordered">5,992,810</td><td class="line2right bordered">6,065,208</td><td class="line2right bordered">6,012,606</td><td class="line2right bordered">5,996,470</td><td class="line2right bordered">63,400</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Memory Buffered</span></td><td class="line1right bordered">211,984</td><td class="line1right bordered">212,083</td><td class="line1right bordered">212,188</td><td class="line1right bordered">212,076</td><td class="line1right bordered">212,083</td><td class="line1right bordered">64.2</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Memory Cache</span></td><td class="line2right bordered">647,644</td><td class="line2right bordered">684,655</td><td class="line2right bordered">750,992</td><td class="line2right bordered">677,254</td><td class="line2right bordered">683,223</td><td class="line2right bordered">30,762</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/User Memory</span></td><td class="line1right bordered">1,229,632</td><td class="line1right bordered">1,266,367</td><td class="line1right bordered">1,411,720</td><td class="line1right bordered">1,260,146</td><td class="line1right bordered">1,263,852</td><td class="line1right bordered">35,237</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/% User Memory</span></td><td class="line2right bordered">15.1</td><td class="line2right bordered">15.5</td><td class="line2right bordered">17.3</td><td class="line2right bordered">15.5</td><td class="line2right bordered">15.5</td><td class="line2right bordered">0.432</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Swap Total</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Swap Free</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Memory/Swap Used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/TCP/Incoming segments/s</span></td><td class="line2right bordered">0</td><td class="line2right bordered">1,262</td><td class="line2right bordered">2,997</td><td class="line2right bordered">1,226</td><td class="line2right bordered">1,255</td><td class="line2right bordered">684.6</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/TCP/Outgoing segments/s</span></td><td class="line1right bordered">0</td><td class="line1right bordered">1,394</td><td class="line1right bordered">3,287</td><td class="line1right bordered">1,352</td><td class="line1right bordered">1,386</td><td class="line1right bordered">757.6</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/TCP/Segments retransmitted/s</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.274</td><td class="line2right bordered">2.4</td><td class="line2right bordered">0.2</td><td class="line2right bordered">0.233</td><td class="line2right bordered">0.338</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/TCP/% Segments retransmitted</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.035</td><td class="line1right bordered">0.763</td><td class="line1right bordered">0.014</td><td class="line1right bordered">0.021</td><td class="line1right bordered">0.08</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Incoming bytes/s(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">55,568</td><td class="line2right bordered">128,894</td><td class="line2right bordered">52,820</td><td class="line2right bordered">54,964</td><td class="line2right bordered">31,358</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Incoming packets/s(eth0)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">424.9</td><td class="line1right bordered">1,006</td><td class="line1right bordered">405.7</td><td class="line1right bordered">419.5</td><td class="line1right bordered">247.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Incoming packet errors/s(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Incoming packets dropped/s(eth0)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/% Incoming packet errors(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Outgoing bytes/s(eth0)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">348,370</td><td class="line1right bordered">807,612</td><td class="line1right bordered">334,025</td><td class="line1right bordered">344,879</td><td class="line1right bordered">199,748</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Outgoing packets/s(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">458.4</td><td class="line2right bordered">1,069</td><td class="line2right bordered">433.9</td><td class="line2right bordered">452.6</td><td class="line2right bordered">263.6</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Outgoing packet errors/s(eth0)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Outgoing packets dropped/s(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/% Outgoing packet errors(eth0)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Linux/linux/Network (per interface)/Packet collisions(eth0)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">MySQL/mysql<span class="mediumtitle-label"> monitored from </span>localhost</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Connections/threads connected</span></td><td class="line2right bordered">2</td><td class="line2right bordered">4.57</td><td class="line2right bordered">7</td><td class="line2right bordered">5</td><td class="line2right bordered">4.53</td><td class="line2right bordered">1.05</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Connections/aborted clients</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Connections/aborted connects</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Connections/max used</span></td><td class="line1right bordered">6</td><td class="line1right bordered">6.1</td><td class="line1right bordered">7</td><td class="line1right bordered">6</td><td class="line1right bordered">6.05</td><td class="line1right bordered">0.296</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/IO Requests/bytes received</span></td><td class="line2right bordered">0.01</td><td class="line2right bordered">5.69</td><td class="line2right bordered">14.1</td><td class="line2right bordered">5.69</td><td class="line2right bordered">5.62</td><td class="line2right bordered">3.06</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/IO Requests/bytes sent</span></td><td class="line1right bordered">3.51</td><td class="line1right bordered">31.2</td><td class="line1right bordered">70</td><td class="line1right bordered">30.6</td><td class="line1right bordered">30.9</td><td class="line1right bordered">15.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/IO Requests/open files</span></td><td class="line2right bordered">18</td><td class="line2right bordered">18</td><td class="line2right bordered">18</td><td class="line2right bordered">18</td><td class="line2right bordered">18</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Select Rates/select full join</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Select Rates/select range check</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Read Rates/handler read random</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Read Rates/handler read random next</span></td><td class="line2right bordered">126.2</td><td class="line2right bordered">127.3</td><td class="line2right bordered">337.4</td><td class="line2right bordered">126.2</td><td class="line2right bordered">126.2</td><td class="line2right bordered">12.8</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Key Rates/key reads (disk)</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Key Rates/key writes (disk)</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Commands Rates/handler rollback</span></td><td class="line1right bordered">0</td><td class="line1right bordered">126.9</td><td class="line1right bordered">299</td><td class="line1right bordered">128</td><td class="line1right bordered">125.3</td><td class="line1right bordered">69.8</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Commands Rates/handler savepoint rollback</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Commands Rates/handler update</span></td><td class="line1right bordered">0</td><td class="line1right bordered">1.25</td><td class="line1right bordered">22</td><td class="line1right bordered">0</td><td class="line1right bordered">0.657</td><td class="line1right bordered">3.31</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Commands Rates/handler write</span></td><td class="line2right bordered">629</td><td class="line2right bordered">636.4</td><td class="line2right bordered">1,681</td><td class="line2right bordered">629</td><td class="line2right bordered">630.1</td><td class="line2right bordered">63.8</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/query cache free blocks</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/query cache free memory</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/query cache hits</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/query cache inserts</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/query cache low memory prunes</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/not cached queries</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/cached queries</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Query Cache/total blocks</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Tables/table locks waited</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/binlog cache size</span></td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/bulk insert buffer size</span></td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/join buffer size</span></td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/key buffer size</span></td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">8,192</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/% key buffer size</span></td><td class="line2right bordered">18.2</td><td class="line2right bordered">18.2</td><td class="line2right bordered">18.2</td><td class="line2right bordered">18.2</td><td class="line2right bordered">18.2</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/max binlog size</span></td><td class="line1right bordered">1,048,576</td><td class="line1right bordered">1,048,576</td><td class="line1right bordered">1,048,576</td><td class="line1right bordered">1,048,576</td><td class="line1right bordered">1,048,576</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/preload buffer size</span></td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/query alloc block size</span></td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/read buffer size</span></td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">128</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/read random buffer size</span></td><td class="line1right bordered">256</td><td class="line1right bordered">256</td><td class="line1right bordered">256</td><td class="line1right bordered">256</td><td class="line1right bordered">256</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/sort buffer size</span></td><td class="line2right bordered">2,048</td><td class="line2right bordered">2,048</td><td class="line2right bordered">2,048</td><td class="line2right bordered">2,048</td><td class="line2right bordered">2,048</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/transaction alloc block size</span></td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">8</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Memory/transaction prealloc size</span></td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Misc./slow queries</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Misc./slow launch threads</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Misc./sort merge passes</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">MySQL/mysql/Misc./not flushed delayed rows</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+</table>
+</div>
+</div>
+<div style="width: 100%; height: 20px;" id="report.textualmonitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Indicators</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template2">
+<tr>
+<td class="line2 bordered"><span class="tablelabel">
+                &nbsp;
+                MySQL/mysql/Description/Database Version</span></td><td class="line2 bordered">
+<ul class="valuesList">
+<li>5.5.62</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">Tomcat/tomcat<span class="mediumtitle-label"> monitored from </span>localhost</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/Session/localhost//jpetstore/activeSessions</span></td><td class="line2right bordered">2</td><td class="line2right bordered">1,418</td><td class="line2right bordered">3,722</td><td class="line2right bordered">1,159</td><td class="line2right bordered">1,369</td><td class="line2right bordered">1,134</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/Session/localhost//jpetstore/rejectedSessions</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/Session/localhost//jpetstore/% rejectedSessions</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/Session/localhost//jpetstore/expiredSessions</span></td><td class="line1right bordered">0</td><td class="line1right bordered">3.34</td><td class="line1right bordered">81</td><td class="line1right bordered">0</td><td class="line1right bordered">2.48</td><td class="line1right bordered">6.86</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/RequestProcessor/"ajp-bio-127.0.0.1-8009"/errorCount</span></td><td class="line2right bordered">0</td><td class="line2right bordered">10.52</td><td class="line2right bordered">48</td><td class="line2right bordered">10</td><td class="line2right bordered">9.93</td><td class="line2right bordered">8.89</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/RequestProcessor/"ajp-bio-127.0.0.1-8009"/% errorCount</span></td><td class="line1right bordered">1.25</td><td class="line1right bordered">1.58</td><td class="line1right bordered">2.07</td><td class="line1right bordered">1.55</td><td class="line1right bordered">1.57</td><td class="line1right bordered">0.267</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/RequestProcessor/"http-bio-8080"/errorCount</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/RequestProcessor/"http-bio-8080"/% errorCount</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/DataSource/localhost//jpetstore/javax.sql.DataSource/"jdbc/jpetstore1"/numActive</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/DataSource/localhost//jpetstore/javax.sql.DataSource/"jdbc/jpetstore1"/% numActive</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/DataSource/localhost//jpetstore/javax.sql.DataSource/"jdbc/jpetstore1"/numIdle</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/ThreadPool/"ajp-bio-127.0.0.1-8009"/currentThreadsBusy</span></td><td class="line1right bordered">20</td><td class="line1right bordered">40.4</td><td class="line1right bordered">129</td><td class="line1right bordered">27</td><td class="line1right bordered">38.1</td><td class="line1right bordered">24.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/ThreadPool/"ajp-bio-127.0.0.1-8009"/% currentThreadsBusy</span></td><td class="line2right bordered">10</td><td class="line2right bordered">20.2</td><td class="line2right bordered">64.5</td><td class="line2right bordered">13.5</td><td class="line2right bordered">19.1</td><td class="line2right bordered">12.4</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/ThreadPool/"http-bio-8080"/currentThreadsBusy</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/ThreadPool/"http-bio-8080"/% currentThreadsBusy</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/VM/Memory/Used</span></td><td class="line1right bordered">108,219,800</td><td class="line1right bordered">130,223,885</td><td class="line1right bordered">157,480,608</td><td class="line1right bordered">129,863,584</td><td class="line1right bordered">129,990,864</td><td class="line1right bordered">11,172,700</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/VM/Memory/% Used</span></td><td class="line2right bordered">5.83</td><td class="line2right bordered">7.01</td><td class="line2right bordered">8.48</td><td class="line2right bordered">6.99</td><td class="line2right bordered">7</td><td class="line2right bordered">0.602</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/VM/Memory/Max</span></td><td class="line1right bordered">1,857,028,096</td><td class="line1right bordered">1,857,028,096</td><td class="line1right bordered">1,857,028,096</td><td class="line1right bordered">1,857,028,096</td><td class="line1right bordered">1,857,028,096</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/VM/Garbage Collector/PS MarkSweep/CollectionTime</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.56</td><td class="line2right bordered">241</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">11.6</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Tomcat/tomcat/VM/Garbage Collector/PS Scavenge/CollectionTime</span></td><td class="line1right bordered">0</td><td class="line1right bordered">3.84</td><td class="line1right bordered">22</td><td class="line1right bordered">5</td><td class="line1right bordered">3.61</td><td class="line1right bordered">3.59</td>
+</tr>
+</table>
+</div>
+</div>
+<div style="width: 100%; height: 20px;" id="report.textualmonitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Indicators</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template2">
+<tr>
+<td class="line2 bordered"><span class="tablelabel">
+                &nbsp;
+                Tomcat/tomcat/DataSource/localhost//jpetstore/javax.sql.DataSource/"jdbc/jpetstore1"/poolConfiguration</span></td><td class="line2 bordered">
+<ul class="valuesList">
+<li>Minimum Idle Connections: 0, Maximum Idle Connections: 8, Maximum Connections: 8</li>
+<li>Maximum Wait Delay (ms): -1</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="line1 bordered"><span class="tablelabel">
+                &nbsp;
+                Tomcat/tomcat/ThreadPool/"ajp-bio-127.0.0.1-8009"/threadsConfiguration</span></td><td class="line1 bordered">
+<ul class="valuesList">
+<li>Maximum Threads: 200</li>
+<li>Minimum Spare Threads: 10</li>
+<li>Maximum Keep Alive: 100</li>
+<li>Maximum Connections: 200</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="line2 bordered"><span class="tablelabel">
+                &nbsp;
+                Tomcat/tomcat/ThreadPool/"http-bio-8080"/threadsConfiguration</span></td><td class="line2 bordered">
+<ul class="valuesList">
+<li>Maximum Threads: 200</li>
+<li>Minimum Spare Threads: 10</li>
+<li>Maximum Keep Alive: 100</li>
+<li>Maximum Connections: 200</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="line1 bordered"><span class="tablelabel">
+                &nbsp;
+                Tomcat/tomcat/Description/JVM</span></td><td class="line1 bordered">
+<ul class="valuesList">
+<li>JVM: 25.362-b08 Red Hat, Inc. OpenJDK 64-Bit Server VM</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="line2 bordered"><span class="tablelabel">
+                &nbsp;
+                Tomcat/tomcat/Description/Specification/Host</span></td><td class="line2 bordered">
+<ul class="valuesList">
+<li>Operating System: Linux 4.14.313-162.533.amzn1.x86_64 amd64</li>
+<li>Number of detected processors: 2</li>
+<li>Physical Memory Size: 8351657984 / Swap Space Size: 0</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG localhost:7100</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/CPU Load</span></td><td class="line2right bordered">6</td><td class="line2right bordered">20</td><td class="line2right bordered">63</td><td class="line2right bordered">19</td><td class="line2right bordered">19.8</td><td class="line2right bordered">5.68</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/JVM Memory Used</span></td><td class="line1right bordered">1</td><td class="line1right bordered">2.36</td><td class="line1right bordered">4</td><td class="line1right bordered">2</td><td class="line1right bordered">2.35</td><td class="line1right bordered">0.983</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/OS Memory Used</span></td><td class="line2right bordered">45</td><td class="line2right bordered">47</td><td class="line2right bordered">50</td><td class="line2right bordered">47</td><td class="line2right bordered">47</td><td class="line2right bordered">1.28</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.062</td><td class="line1right bordered">0.91</td><td class="line1right bordered">0</td><td class="line1right bordered">0.045</td><td class="line1right bordered">0.11</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">8.45</td><td class="line2right bordered">16</td><td class="line2right bordered">8</td><td class="line2right bordered">8.42</td><td class="line2right bordered">4.25</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">87.5</td><td class="line1right bordered">97</td><td class="line1right bordered">87</td><td class="line1right bordered">87.6</td><td class="line1right bordered">5.21</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.195</td><td class="line2right bordered">0.23</td><td class="line2right bordered">0.195</td><td class="line2right bordered">0.195</td><td class="line2right bordered">0.01</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">1</td><td class="line2right bordered">2.25</td><td class="line2right bordered">4</td><td class="line2right bordered">2</td><td class="line2right bordered">2.26</td><td class="line2right bordered">0.646</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/Segments sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan1 (Intel(R) Wi-Fi 6 AX201 160MHz)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan1 (Intel(R) Wi-Fi 6 AX201 160MHz)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan0 (Microsoft Wi-Fi Direct Virtual Adapter)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan0 (Microsoft Wi-Fi Direct Virtual Adapter)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth2 (Cisco AnyConnect Secure Mobility C... for Windows x64)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth2 (Cisco AnyConnect Secure Mobility C...pter for Windows x64)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth1 (Bluetooth Device (Personal Area Network))/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth1 (Bluetooth Device (Personal Area Network))/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/net6 (TAP-Windows Adapter V9)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/net6 (TAP-Windows Adapter V9)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth10 (Dell GigabitEthernet)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth10 (Dell GigabitEthernet)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 3.26.233.103:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">1.71</td><td class="line2right bordered">83</td><td class="line2right bordered">1</td><td class="line2right bordered">1.05</td><td class="line2right bordered">4.11</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">15.2</td><td class="line1right bordered">34</td><td class="line1right bordered">14</td><td class="line1right bordered">14.8</td><td class="line1right bordered">7.27</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/OS Memory Used</span></td><td class="line2right bordered">12</td><td class="line2right bordered">17.4</td><td class="line2right bordered">20</td><td class="line2right bordered">18</td><td class="line2right bordered">17.5</td><td class="line2right bordered">2.24</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.466</td><td class="line1right bordered">4.17</td><td class="line1right bordered">0.303</td><td class="line1right bordered">0.408</td><td class="line1right bordered">0.514</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">64.7</td><td class="line2right bordered">120</td><td class="line2right bordered">65</td><td class="line2right bordered">64.7</td><td class="line2right bordered">34.8</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">124.7</td><td class="line1right bordered">180</td><td class="line1right bordered">125</td><td class="line1right bordered">124.7</td><td class="line1right bordered">34.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.105</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.001</td><td class="line1right bordered">0.1</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.005</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">234</td><td class="line2right bordered">398.9</td><td class="line2right bordered">523</td><td class="line2right bordered">452</td><td class="line2right bordered">401.4</td><td class="line2right bordered">99.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.84</td><td class="line1right bordered">110.3</td><td class="line1right bordered">734.4</td><td class="line1right bordered">76.2</td><td class="line1right bordered">100.3</td><td class="line1right bordered">99.3</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.046</td><td class="line2right bordered">2.98</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0.225</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Network/ens5 (ens5)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.535</td><td class="line1right bordered">4.53</td><td class="line1right bordered">0.359</td><td class="line1right bordered">0.473</td><td class="line1right bordered">0.562</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 3.26.233.103:443/Network/ens5 (ens5)/Megabits sent/sec.</span></td><td class="line2right bordered">0.024</td><td class="line2right bordered">0.187</td><td class="line2right bordered">1.3</td><td class="line2right bordered">0.147</td><td class="line2right bordered">0.174</td><td class="line2right bordered">0.142</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 54.75.77.111:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">2</td><td class="line2right bordered">80</td><td class="line2right bordered">1</td><td class="line2right bordered">1.31</td><td class="line2right bordered">4.5</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">15.3</td><td class="line1right bordered">34</td><td class="line1right bordered">14</td><td class="line1right bordered">14.9</td><td class="line1right bordered">7.38</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/OS Memory Used</span></td><td class="line2right bordered">12</td><td class="line2right bordered">17.3</td><td class="line2right bordered">20</td><td class="line2right bordered">18</td><td class="line2right bordered">17.3</td><td class="line2right bordered">2.15</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.421</td><td class="line1right bordered">3.84</td><td class="line1right bordered">0.2</td><td class="line1right bordered">0.349</td><td class="line1right bordered">0.554</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">56.4</td><td class="line2right bordered">105</td><td class="line2right bordered">56</td><td class="line2right bordered">56.5</td><td class="line2right bordered">30.1</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">116.4</td><td class="line1right bordered">165</td><td class="line1right bordered">116</td><td class="line1right bordered">116.5</td><td class="line1right bordered">30.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.001</td><td class="line1right bordered">0.133</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.006</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">1</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">128</td><td class="line2right bordered">227.7</td><td class="line2right bordered">314</td><td class="line2right bordered">245</td><td class="line2right bordered">229.1</td><td class="line2right bordered">41.3</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.72</td><td class="line1right bordered">103</td><td class="line1right bordered">853.7</td><td class="line1right bordered">61.1</td><td class="line1right bordered">88.3</td><td class="line1right bordered">112.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.094</td><td class="line2right bordered">2.04</td><td class="line2right bordered">0</td><td class="line2right bordered">0.029</td><td class="line2right bordered">0.347</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Network/ens5 (ens5)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.486</td><td class="line1right bordered">4.19</td><td class="line1right bordered">0.243</td><td class="line1right bordered">0.407</td><td class="line1right bordered">0.608</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 54.75.77.111:443/Network/ens5 (ens5)/Megabits sent/sec.</span></td><td class="line2right bordered">0.024</td><td class="line2right bordered">0.171</td><td class="line2right bordered">1.36</td><td class="line2right bordered">0.127</td><td class="line2right bordered">0.157</td><td class="line2right bordered">0.142</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 52.174.37.27:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">3.61</td><td class="line2right bordered">89</td><td class="line2right bordered">2</td><td class="line2right bordered">2.51</td><td class="line2right bordered">6.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">5.95</td><td class="line1right bordered">9</td><td class="line1right bordered">6</td><td class="line1right bordered">5.92</td><td class="line1right bordered">1.29</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/OS Memory Used</span></td><td class="line2right bordered">24</td><td class="line2right bordered">31.4</td><td class="line2right bordered">32</td><td class="line2right bordered">32</td><td class="line2right bordered">31.6</td><td class="line2right bordered">1.18</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.363</td><td class="line1right bordered">3.45</td><td class="line1right bordered">0.193</td><td class="line1right bordered">0.304</td><td class="line1right bordered">0.453</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">49</td><td class="line2right bordered">91</td><td class="line2right bordered">48</td><td class="line2right bordered">49</td><td class="line2right bordered">25.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">109</td><td class="line1right bordered">151</td><td class="line1right bordered">108</td><td class="line1right bordered">109</td><td class="line1right bordered">25.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.001</td><td class="line1right bordered">0.083</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.005</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">118</td><td class="line2right bordered">196.1</td><td class="line2right bordered">280</td><td class="line2right bordered">214</td><td class="line2right bordered">196.2</td><td class="line2right bordered">41</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.94</td><td class="line1right bordered">86.9</td><td class="line1right bordered">670.3</td><td class="line1right bordered">60.9</td><td class="line1right bordered">77</td><td class="line1right bordered">80.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.037</td><td class="line2right bordered">2.09</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0.194</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Network/eth0 (eth0)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.562</td><td class="line1right bordered">6.41</td><td class="line1right bordered">0.279</td><td class="line1right bordered">0.422</td><td class="line1right bordered">0.834</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 52.174.37.27:443/Network/eth0 (eth0)/Megabits sent/sec.</span></td><td class="line2right bordered">0.022</td><td class="line2right bordered">0.158</td><td class="line2right bordered">1.23</td><td class="line2right bordered">0.124</td><td class="line2right bordered">0.146</td><td class="line2right bordered">0.12</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 4.205.106.242:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">3.41</td><td class="line2right bordered">96</td><td class="line2right bordered">2</td><td class="line2right bordered">2.51</td><td class="line2right bordered">5.76</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">6.43</td><td class="line1right bordered">10</td><td class="line1right bordered">6</td><td class="line1right bordered">6.4</td><td class="line1right bordered">1.63</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/OS Memory Used</span></td><td class="line2right bordered">24</td><td class="line2right bordered">31.4</td><td class="line2right bordered">33</td><td class="line2right bordered">32</td><td class="line2right bordered">31.6</td><td class="line2right bordered">1.39</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.309</td><td class="line1right bordered">2.4</td><td class="line1right bordered">0.153</td><td class="line1right bordered">0.262</td><td class="line1right bordered">0.382</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">41.1</td><td class="line2right bordered">75</td><td class="line2right bordered">40</td><td class="line2right bordered">41.2</td><td class="line2right bordered">21.1</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">101.1</td><td class="line1right bordered">135</td><td class="line1right bordered">100</td><td class="line1right bordered">101.2</td><td class="line1right bordered">21.1</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.001</td><td class="line1right bordered">0.15</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.005</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">48</td><td class="line2right bordered">84.9</td><td class="line2right bordered">137</td><td class="line2right bordered">85</td><td class="line2right bordered">84.3</td><td class="line2right bordered">17.5</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.93</td><td class="line1right bordered">77.9</td><td class="line1right bordered">501</td><td class="line1right bordered">52.1</td><td class="line1right bordered">69.9</td><td class="line1right bordered">70.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.038</td><td class="line2right bordered">2.43</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0.202</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Network/eth0 (eth0)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.377</td><td class="line1right bordered">2.77</td><td class="line1right bordered">0.205</td><td class="line1right bordered">0.325</td><td class="line1right bordered">0.433</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 4.205.106.242:443/Network/eth0 (eth0)/Megabits sent/sec.</span></td><td class="line2right bordered">0.023</td><td class="line2right bordered">0.148</td><td class="line2right bordered">1.56</td><td class="line2right bordered">0.113</td><td class="line2right bordered">0.137</td><td class="line2right bordered">0.115</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 15.228.145.168:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">1.66</td><td class="line2right bordered">79</td><td class="line2right bordered">1</td><td class="line2right bordered">0.99</td><td class="line2right bordered">4.22</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">14.1</td><td class="line1right bordered">34</td><td class="line1right bordered">13</td><td class="line1right bordered">13.6</td><td class="line1right bordered">6.74</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/OS Memory Used</span></td><td class="line2right bordered">12</td><td class="line2right bordered">16.8</td><td class="line2right bordered">20</td><td class="line2right bordered">16</td><td class="line2right bordered">16.8</td><td class="line2right bordered">1.82</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.241</td><td class="line1right bordered">2.23</td><td class="line1right bordered">0.125</td><td class="line1right bordered">0.206</td><td class="line1right bordered">0.296</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">32.9</td><td class="line2right bordered">60</td><td class="line2right bordered">33</td><td class="line2right bordered">32.9</td><td class="line2right bordered">16.9</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">92.9</td><td class="line1right bordered">120</td><td class="line1right bordered">93</td><td class="line1right bordered">93</td><td class="line1right bordered">16.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.001</td><td class="line1right bordered">0.1</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.005</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">157</td><td class="line2right bordered">276.7</td><td class="line2right bordered">371</td><td class="line2right bordered">302</td><td class="line2right bordered">278.1</td><td class="line2right bordered">68</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.72</td><td class="line1right bordered">67.7</td><td class="line1right bordered">470.3</td><td class="line1right bordered">47.2</td><td class="line1right bordered">61.2</td><td class="line1right bordered">59.2</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.092</td><td class="line2right bordered">3</td><td class="line2right bordered">0</td><td class="line2right bordered">0.028</td><td class="line2right bordered">0.345</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Network/ens5 (ens5)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.288</td><td class="line1right bordered">2.44</td><td class="line1right bordered">0.161</td><td class="line1right bordered">0.25</td><td class="line1right bordered">0.324</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 15.228.145.168:443/Network/ens5 (ens5)/Megabits sent/sec.</span></td><td class="line2right bordered">0.024</td><td class="line2right bordered">0.129</td><td class="line2right bordered">1.13</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.12</td><td class="line2right bordered">0.094</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 20.165.232.169:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">2.6</td><td class="line2right bordered">99</td><td class="line2right bordered">2</td><td class="line2right bordered">1.86</td><td class="line2right bordered">4.84</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">7.74</td><td class="line1right bordered">14</td><td class="line1right bordered">8</td><td class="line1right bordered">7.66</td><td class="line1right bordered">2.46</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/OS Memory Used</span></td><td class="line2right bordered">24</td><td class="line2right bordered">32.9</td><td class="line2right bordered">35</td><td class="line2right bordered">33</td><td class="line2right bordered">33.1</td><td class="line2right bordered">1.85</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.187</td><td class="line1right bordered">1.87</td><td class="line1right bordered">0.094</td><td class="line1right bordered">0.156</td><td class="line1right bordered">0.239</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">25</td><td class="line2right bordered">45</td><td class="line2right bordered">24</td><td class="line2right bordered">25.1</td><td class="line2right bordered">12.7</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">85</td><td class="line1right bordered">105</td><td class="line1right bordered">84</td><td class="line1right bordered">85.1</td><td class="line1right bordered">12.7</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.133</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.006</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">89</td><td class="line2right bordered">142.8</td><td class="line2right bordered">197</td><td class="line2right bordered">148</td><td class="line2right bordered">143</td><td class="line2right bordered">26.5</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.78</td><td class="line1right bordered">56.5</td><td class="line1right bordered">303.1</td><td class="line1right bordered">42.4</td><td class="line1right bordered">51.7</td><td class="line1right bordered">44.2</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.041</td><td class="line2right bordered">2</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0.202</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Network/eth0 (eth0)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.238</td><td class="line1right bordered">2.11</td><td class="line1right bordered">0.135</td><td class="line1right bordered">0.205</td><td class="line1right bordered">0.269</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 20.165.232.169:443/Network/eth0 (eth0)/Megabits sent/sec.</span></td><td class="line2right bordered">0.023</td><td class="line2right bordered">0.116</td><td class="line2right bordered">1.4</td><td class="line2right bordered">0.096</td><td class="line2right bordered">0.109</td><td class="line2right bordered">0.082</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG 35.235.110.229:443</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">4.17</td><td class="line2right bordered">100</td><td class="line2right bordered">2</td><td class="line2right bordered">2.92</td><td class="line2right bordered">7.15</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/JVM Memory Used</span></td><td class="line1right bordered">4</td><td class="line1right bordered">11.8</td><td class="line1right bordered">24</td><td class="line1right bordered">11</td><td class="line1right bordered">11.6</td><td class="line1right bordered">4.88</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/OS Memory Used</span></td><td class="line2right bordered">14</td><td class="line2right bordered">16.8</td><td class="line2right bordered">19</td><td class="line2right bordered">17</td><td class="line2right bordered">16.8</td><td class="line2right bordered">1.42</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.126</td><td class="line1right bordered">1.24</td><td class="line1right bordered">0.047</td><td class="line1right bordered">0.096</td><td class="line1right bordered">0.197</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">16.8</td><td class="line2right bordered">31</td><td class="line2right bordered">16</td><td class="line2right bordered">16.8</td><td class="line2right bordered">8.45</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Thread Count</span></td><td class="line1right bordered">42</td><td class="line1right bordered">76.8</td><td class="line1right bordered">91</td><td class="line1right bordered">76</td><td class="line1right bordered">76.8</td><td class="line1right bordered">8.5</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Http client/Thread Pool used</span></td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.105</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0.1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Http client/Task Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.183</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0.005</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Controller Connection/Disconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Controller Connection/Reconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Controller Connection/Ping Duration (ms)</span></td><td class="line2right bordered">120</td><td class="line2right bordered">189.8</td><td class="line2right bordered">250</td><td class="line2right bordered">201</td><td class="line2right bordered">190.3</td><td class="line2right bordered">32.2</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Network/Segments sent/sec.</span></td><td class="line1right bordered">7.87</td><td class="line1right bordered">42</td><td class="line1right bordered">252.3</td><td class="line1right bordered">30.7</td><td class="line1right bordered">37.4</td><td class="line1right bordered">36.2</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.054</td><td class="line2right bordered">3.68</td><td class="line2right bordered">0</td><td class="line2right bordered">0.003</td><td class="line2right bordered">0.235</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Network/ens4 (ens4)/Megabits received/sec.</span></td><td class="line1right bordered">0.01</td><td class="line1right bordered">0.161</td><td class="line1right bordered">1.36</td><td class="line1right bordered">0.081</td><td class="line1right bordered">0.13</td><td class="line1right bordered">0.214</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG 35.235.110.229:443/Network/ens4 (ens4)/Megabits sent/sec.</span></td><td class="line2right bordered">0.022</td><td class="line2right bordered">0.09</td><td class="line2right bordered">1.12</td><td class="line2right bordered">0.069</td><td class="line2right bordered">0.083</td><td class="line2right bordered">0.067</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

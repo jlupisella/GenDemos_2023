@@ -1,0 +1,10 @@
+GET http://34.229.222.0/jpetstore/ HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: br,deflate,gzip
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Host: 34.229.222.0
+
