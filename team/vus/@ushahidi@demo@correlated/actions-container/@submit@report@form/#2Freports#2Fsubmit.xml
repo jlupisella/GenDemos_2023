@@ -1,4 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/reports/submit"
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/reports/submit"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/d661d97e-e769-4f57-a285-4fb43f0d5c6c.zip"
     slaProfileEnabled="false" thinkTime="2833"

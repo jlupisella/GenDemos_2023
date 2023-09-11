@@ -15,8 +15,6 @@
         <!--****** POPULATION LG HOSTS ******-->
         <lg-hosts>
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-            <lg-host-entry>$zoneID=USA East - Virginia (Ashburn 3);$lgID=34.145.199.148:443</lg-host-entry>
-            <lg-host-entry>$zoneID=USA West - California (Los Angeles 1);$lgID=20.112.122.213:443</lg-host-entry>
         </lg-hosts>
     </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>

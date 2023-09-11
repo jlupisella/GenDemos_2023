@@ -1,0 +1,9 @@
+GET https://assets.msn.com:443/weathermapdata/1/static/weather/Icons/JgArPAA=/Teaser/rainstart0.svg HTTP/1.1
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: assets.msn.com
+Connection: Keep-Alive
+Cookie: _C_ETH=1; _EDGE_S=SID=29FF676E73D76C7C3703740772166DF4; _EDGE_V=1; MUID=03F532231D34665E08F121441C9C67CB
+

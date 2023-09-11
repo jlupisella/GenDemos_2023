@@ -1,0 +1,20 @@
+POST https://ushahidi.apps.neotys.com:443/rb_bf42640bbz?type=js3&sn=v_4_srv_7_sn_65D4D7D7111FD0FABF020D59C2C878E7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0&svrid=7&flavor=post&vi=SRRQATLGFPJAAUFUMCWURPHAMSKPENHU-0&contentType=srTe&modifiedSince=1691431015775&rf=https%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fsubmit&bp=3&app=ea7c4b59f27d43eb&v=10271230629152232&crc=2015413007&en=cnyf1t4q&end=1 HTTP/1.1
+Host: ushahidi.apps.neotys.com
+Connection: keep-alive
+Content-Length: 554
+sec-ch-ua: "Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://ushahidi.apps.neotys.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://ushahidi.apps.neotys.com/reports/submit
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: apt.uid=AP-OLHBIWKH7BEB-2-1691458110066-24233314.0.2.ff27edae-2fd8-4117-adf0-d21157e28b69; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTY5MTU5NDExMywiZXhwIjoxNjkxNjgwNTEzLCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNWFmNDUzZDc2ZTU1YWIwMDAxNGE0NmViIn0.GaD1xxcdWQhkx9EY0zWAZT3zdSuxV8q55BZpOBvsVEx-d9ytY-dnIIzmD0Buo_UUzlDsW8r4C6qK1nOBZ6Mljrz1Wy2L8Jd-HdgQ6Co1__V651ArNOxtlPznIibTdVLKg2zvmm6beRNduNNnXypkTGX9-pTl9QI4Qk4G0J7V5n7-tpK39syoegjMShiPbsIkjZAIYUEaZtyBNP_buq08Y-HlcbBh3KG_7CAf-YXhGK7W1FIP_PCX5VrKLhjgZLIIWR0IVOoxtqtcE6A3SrEH27dxPb_PrMs4g96ap83-6cqqutVxc_AsFcbZI0azfq4cJiEEdaTAMNZsuXdZqSbxNg; rxVisitor=1691602602917E06N6GBO1GSBCV52N35B48Q1U4KKN7AC; ushahidi=812l18bo7tnaedki6qgi27ltp6; dtCookie=v_4_srv_7_sn_65D4D7D7111FD0FABF020D59C2C878E7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtSa=-; dtPC=7$277392932_520h-vSRRQATLGFPJAAUFUMCWURPHAMSKPENHU-0e0; rxvt=1691679200514|1691677154490
+
+3,1691677400515,1691677399526,1691677400514,6,1691677394486^c 45 491 248 307^m 127 491 249 307>19 490 253 ~>36 ~ 269 ~>53 489 306 302>69 ~ 344 298>86 485 357 297>102 ~ 394 296>119 489 415 298>136 ~ 418 300>153 ~ 419 ~>169 ~ ~ 301>405 484 420 302>713 511 421 ~>731 ~ 423 301>748 ~ 426 298>764 ~ 432 293>781 503 442 286>797 ~ 463 278>814 509 515 262>831 ~ 568 250>847 279 614 241^s 482 1 401 0>16 ~ 407 ~>33 ~ 414 ~>50 ~ 425 ~>67 ~ 438 ~>83 ~ 454 ~>100 ~ 471 ~>116 ~ 489 ~>133 ~ 508 ~>149 ~ 526 ~>166 ~ 542 ~>183 ~ 554 ~>200 ~ 562 ~>216 ~ 566 ~>233 ~ 568 ~

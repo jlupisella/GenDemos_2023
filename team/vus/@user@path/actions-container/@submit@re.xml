@@ -1,6 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="SubmitRe" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="f78a669f-c30f-42b2-a5f4-1f4593237642" weightsEnabled="false">
-    <weighted-embedded-action uid="19597155-47fe-443d-b522-cc0cfd6a8ca8"/>
-</basic-logical-action-container>

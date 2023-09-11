@@ -1,4 +1,5 @@
 <http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
     name="/jpetstore/shop/signonForm.shtml;jsessionid=53C7A21C99216C32B044D1C81417A958"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/fad64f05-4a30-42c1-baac-84e7ae6b467c.zip"

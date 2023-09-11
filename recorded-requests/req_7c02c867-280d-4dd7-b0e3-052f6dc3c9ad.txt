@@ -1,0 +1,156 @@
+POST https://ushahidi.apps.neotys.com:443/reports/submit HTTP/1.1
+Host: ushahidi.apps.neotys.com
+Connection: keep-alive
+Content-Length: 3592
+Cache-Control: max-age=0
+sec-ch-ua: "Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: https://ushahidi.apps.neotys.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryi4L4vS69QMxgAZMh
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://ushahidi.apps.neotys.com/reports/submit
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: apt.uid=AP-OLHBIWKH7BEB-2-1691458110066-24233314.0.2.ff27edae-2fd8-4117-adf0-d21157e28b69; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTY5MTU5NDExMywiZXhwIjoxNjkxNjgwNTEzLCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNWFmNDUzZDc2ZTU1YWIwMDAxNGE0NmViIn0.GaD1xxcdWQhkx9EY0zWAZT3zdSuxV8q55BZpOBvsVEx-d9ytY-dnIIzmD0Buo_UUzlDsW8r4C6qK1nOBZ6Mljrz1Wy2L8Jd-HdgQ6Co1__V651ArNOxtlPznIibTdVLKg2zvmm6beRNduNNnXypkTGX9-pTl9QI4Qk4G0J7V5n7-tpK39syoegjMShiPbsIkjZAIYUEaZtyBNP_buq08Y-HlcbBh3KG_7CAf-YXhGK7W1FIP_PCX5VrKLhjgZLIIWR0IVOoxtqtcE6A3SrEH27dxPb_PrMs4g96ap83-6cqqutVxc_AsFcbZI0azfq4cJiEEdaTAMNZsuXdZqSbxNg; rxVisitor=1691602602917E06N6GBO1GSBCV52N35B48Q1U4KKN7AC; ushahidi=812l18bo7tnaedki6qgi27ltp6; dtCookie=v_4_srv_7_sn_65D4D7D7111FD0FABF020D59C2C878E7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtPC=7$277161533_533h-vSRRQATLGFPJAAUFUMCWURPHAMSKPENHU-0e0; rxvt=1691678972071|1691677154490; dtSa=true%7CC%7C-1%7CSubmit%7C-%7C1691677172564%7C277161533_533%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fsubmit%7C%7C%7C%7C
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="form_auth_token"
+
+686707aeb0b5121517820b9d3bd2fa814e4495c8c3ba51a587b37333e113dff8
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="latitude"
+
+43.28083299894415
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="longitude"
+
+5.614120955109492
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="country_name"
+
+France
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_zoom"
+
+12
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="form_id"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_title"
+
+my report
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_description"
+
+nrgbgrb
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_date"
+
+08/10/2023
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_hour"
+
+02
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_minute"
+
+19
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_ampm"
+
+pm
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_category[]"
+
+1
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="person_first"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="person_last"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="person_email"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_label"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_comment"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_color"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_strokewidth"
+
+0.5
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_lat"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="geometry_lon"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="OpenLayers_Control_LayerSwitcher_21_baseLayers"
+
+OSM Mapnik
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="Editable"
+
+Editable
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="location_find"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="location_name"
+
+bgbgb
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_news[]"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="news_id"
+
+1
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_video[]"
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="video_id"
+
+1
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="incident_photo[]"; filename=""
+Content-Type: application/octet-stream
+
+
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="photo_id"
+
+1
+------WebKitFormBoundaryi4L4vS69QMxgAZMh
+Content-Disposition: form-data; name="submit"
+
+Submit
+------WebKitFormBoundaryi4L4vS69QMxgAZMh--

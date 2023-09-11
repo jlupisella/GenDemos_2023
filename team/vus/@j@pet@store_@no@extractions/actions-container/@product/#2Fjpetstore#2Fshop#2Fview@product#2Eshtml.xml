@@ -1,4 +1,5 @@
 <http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/371771c4-d625-42fe-9f8e-702fb113bffb.zip"
@@ -17,7 +18,7 @@
     path="/jpetstore/shop/viewProduct.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/371771c4-d625-42fe-9f8e-702fb113bffb.zip"
     recordedResponseCode="200"
-    refererUid="16da2ecc-9454-4ff6-86a0-d174bcfd6146"
+    refererUid="3e5a0b57-d677-4035-9406-eea0fc275ee1"
     responseSize="4142" serverUid="TrainingImage"
     slaProfileEnabled="false" uid="6381af2b-a634-4345-896b-4dc20968e3ea" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c48766f0-3a92-4f47-8848-e50f445fcaa4.html</responsePageFileDescription>

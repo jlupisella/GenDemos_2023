@@ -1,4 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/jpetstore/"
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/jpetstore/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/a27df18c-52bd-4195-9c63-fc5a988ed1ad.zip"
     slaProfileEnabled="false" slaProfileName="JPetStore" thinkTime="0"

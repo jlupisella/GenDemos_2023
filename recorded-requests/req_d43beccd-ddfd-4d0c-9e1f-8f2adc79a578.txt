@@ -1,0 +1,15 @@
+GET https://slack.com:443/beacon/timing?user_id=U02CSE9NC3Y&team_id=T02CFS00G7R&ver=1691618845&session_age=8077&session_id=3d59392f-78b7-4ba4-9478-305e96c37684&sub_app_name=client&data=ws_sr_total_queries_0%7Ccount%3A3%3Bws_sr_successful_queries_0%7Ccount%3A3%3Bws_sr_avg_response_size_0%7Ccount%3A41%3Bws_sr_max_response_size_0%7Ccount%3A41 HTTP/1.1
+Host: slack.com
+Connection: keep-alive
+sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0.19045; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.33.84 Chrome/114.0.5735.134 Electron/25.2.0 Safari/537.36 OS_Product/Workstation Servicing_Channel/SAC LMSI Sonic Slack_SSB/4.33.84
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US
+Cookie: b=9e98f2ec48a6bb9eedb7c99811dc367c; ssb_instance_id=2fd6b08c-3967-43af-a3dd-da11c26a2804; tz=-240; lc=1691498034; d=xoxd-eYK73MOWedbiLmKB7K1m8LLe7aJO4u89tGuAA%2FCnYJQzHS6GfcusA7mmJL9BEYFa5Avm5jf4LjmhEjwweoZJIOoMRn6UVy1NR7iKIosLegFYFe%2B4pyHD%2FkNHFmWu%2FvJ9fXyHXNv4MQhM1l12ycreKWvy5p31oDFNlNBZt77dtnvbanFGQdUnKY83F7zTqPCovX29WCw%3D; d-s=1691673047; x=9e98f2ec48a6bb9eedb7c99811dc367c.1691676526
+

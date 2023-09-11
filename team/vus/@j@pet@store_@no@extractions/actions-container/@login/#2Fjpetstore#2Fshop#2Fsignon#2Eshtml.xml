@@ -1,4 +1,5 @@
 <http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
     name="/jpetstore/shop/signon.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/a04ffd10-7edc-4e97-9ade-f73a10dc6985.zip"
     slaProfileEnabled="false" thinkTime="3273"
@@ -29,7 +30,7 @@
         recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
     <parameter encodeName="false" encodeValue="false" name="password"
         recordRawValue="${AutoPassword_3}" separator="="
-        value="${AutoPassword_1}" valueMode="USE_VALUE"/>
+        value="****************" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="x"
         recordRawValue="44" separator="=" value="44" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="y"
